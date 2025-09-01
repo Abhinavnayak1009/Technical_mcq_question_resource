@@ -1,0 +1,599 @@
+1. What happens when you try to override a static method in Java?
+- Compilation error occurs
+- Method hiding occurs instead of overriding*
+- Runtime polymorphism works normally
+- Method gets ignored
+
+2. Which statement is true about method overloading with different return types?
+- Always allowed if parameters are different
+- Never allowed even with different parameters
+- Allowed only if parameters are also different*
+- Causes runtime error
+
+3. What is the output when a child class constructor doesn't explicitly call super()?
+- Compilation error
+- Runtime error
+- Parent's default constructor is called automatically*
+- Nothing happens
+
+4. In Java, what happens when you declare a variable with the same name in parent and child class?
+- Compilation error
+- Child class variable hides parent variable*
+- Parent variable gets overridden
+- Both variables coexist
+
+5. What is true about private constructors?
+- Cannot create objects of that class from outside*
+- Cannot be called at all
+- Only static methods can access them
+- They prevent inheritance completely
+
+6. Which is true about abstract methods in abstract classes?
+- Must be implemented by all subclasses*
+- Can have method body
+- Cannot have parameters
+- Are automatically static
+
+7. What happens when you call a non-static method from a static context?
+- Method executes normally
+- Compilation error occurs*
+- Runtime error occurs
+- Method becomes static automatically
+
+8. In composition vs inheritance, which represents stronger coupling?
+- Composition
+- Both are equal
+- Neither shows coupling
+- Inheritance*
+
+9. What is true about final methods?
+- Can be overloaded but not overridden*
+- Cannot be overloaded or overridden
+- Can be overridden but not overloaded
+- Are automatically static
+
+10. When does method overriding occur at runtime?
+- When methods have same signature in inheritance hierarchy*
+- When methods have different signatures
+- When methods are static
+- When methods are private
+
+11. What is the diamond problem in multiple inheritance?
+- Performance degradation issue
+- Ambiguity when same method exists in multiple parent classes*
+- Memory leak problem
+- Compilation speed issue
+
+12. Which design principle is violated when a class has too many responsibilities?
+- Open/Closed Principle
+- Single Responsibility Principle*
+- Liskov Substitution Principle
+- Interface Segregation Principle
+
+13. What happens when you try to instantiate an abstract class directly?
+- Object is created successfully
+- Runtime error occurs
+- Compilation error occurs*
+- Object is created but incomplete
+
+14. In Java interfaces, what was introduced in Java 8?
+- Abstract methods only
+- Default and static methods*
+- Private methods
+- Protected methods
+
+15. What is true about method hiding vs method overriding?
+- Both are the same concept
+- Hiding occurs with instance methods, overriding with static
+- Hiding occurs with static methods, overriding with instance*
+- Hiding is compile-time, overriding is runtime
+
+16. Which access modifier allows access to subclasses even in different packages?
+- private
+- default
+- protected*
+- public
+
+17. What is covariant return type in method overriding?
+- Return type must be exactly same
+- Return type can be subtype of parent's return type*
+- Return type can be any type
+- Return type must be primitive
+
+18. What happens when you override equals() but not hashCode()?
+- No problem occurs
+- Violates equals-hashCode contract*
+- Compilation error
+- Runtime error
+
+19. What is true about constructor chaining?
+- this() must be the first statement*
+- super() can be called after other statements
+- Both this() and super() can be used together
+- Constructor chaining is not allowed
+
+20. In encapsulation, why are getters and setters preferred over direct field access?
+- Better performance
+- Control access and add validation logic*
+- Reduces memory usage
+- Makes code shorter
+
+21. What is true about immutable objects?
+- State cannot be changed after creation*
+- Cannot have any methods
+- Cannot be inherited
+- Must be final classes
+
+22. What design pattern ensures only one instance of a class exists?
+- Factory Pattern
+- Observer Pattern
+- Singleton Pattern*
+- Builder Pattern
+
+23. What is true about inner classes in Java?
+- Can access outer class private members*
+- Cannot access outer class members
+- Are automatically static
+- Cannot be instantiated
+
+24. What happens in shallow cloning?
+- Creates completely independent copy
+- Copies object but not referenced objects*
+- Cannot clone objects
+- Only clones primitive fields
+
+25. What is true about interface default methods?
+- Cannot be overridden
+- Can be overridden in implementing classes*
+- Are automatically static
+- Must be abstract
+
+26. Which principle suggests depending on abstractions rather than concretions?
+- Single Responsibility
+- Open/Closed
+- Dependency Inversion*
+- Interface Segregation
+
+27. What is true about method overloading with varargs?
+- Cannot be overloaded
+- Can cause ambiguity*
+- Always has highest priority
+- Is not allowed in Java
+
+28. What happens when you have a circular dependency in constructor chaining?
+- Infinite loop at runtime
+- Stack overflow
+- Compilation error*
+- Program terminates normally
+
+29. In composition, what happens to contained objects when container is destroyed?
+- They continue to exist
+- They are also destroyed*
+- They become independent
+- They are moved to another container
+
+30. What is true about anonymous inner classes?
+- Can implement multiple interfaces
+- Can extend class or implement one interface*
+- Cannot access outer class variables
+- Must be static
+
+31. What is the Liskov Substitution Principle?
+- Child class objects should be substitutable for parent class objects*
+- Parent class objects should be substitutable for child class objects
+- Classes should have only one responsibility
+- Classes should be open for extension
+
+32. What happens when you call super.method() in an overridden method?
+- Calls current class method
+- Calls parent class method*
+- Causes compilation error
+- Calls grandparent class method
+
+33. What is true about static nested classes?
+- Can access outer class instance variables
+- Cannot access outer class instance variables*
+- Are automatically inner classes
+- Cannot be instantiated
+
+34. What is method dispatch in polymorphism?
+- Process of determining which method to call at runtime*
+- Process of creating methods
+- Process of overloading methods
+- Process of hiding methods
+
+35. What is true about multiple inheritance through interfaces?
+- Causes diamond problem
+- Is fully supported in Java*
+- Is not allowed
+- Causes performance issues
+
+36. What happens when you declare a method as both abstract and final?
+- Method cannot be overridden
+- Compilation error*
+- Method becomes concrete
+- Runtime error occurs
+
+37. What is true about object identity vs object equality?
+- == checks equality, equals() checks identity
+- == checks identity, equals() checks equality*
+- Both check the same thing
+- Neither can be used for comparison
+
+38. What is aggregation in OOP?
+- Strong ownership relationship
+- Weak "has-a" relationship*
+- "Is-a" relationship
+- No relationship
+
+39. What happens when you access a static variable through an object reference?
+- Compilation error
+- Runtime error
+- Works but not recommended*
+- Variable becomes instance variable
+
+40. What is true about constructor overloading?
+- Return types must be different
+- Parameter lists must be different*
+- Not allowed in Java
+- Automatically creates default constructor
+
+41. What is the template method pattern?
+- Defines algorithm structure, lets subclasses override specific steps*
+- Creates objects without specifying exact class
+- Ensures single instance of class
+- Provides interface for creating families of objects
+
+42. What happens when you try to override a private method?
+- Compilation error
+- New method is created, not overridden*
+- Method gets overridden normally
+- Runtime error
+
+43. What is true about cohesion and coupling?
+- High cohesion and low coupling are desirable*
+- Low cohesion and high coupling are desirable
+- Both should be high
+- Both should be low
+
+44. What is lazy initialization?
+- Initializing objects immediately
+- Initializing objects only when needed*
+- Initializing objects in constructor
+- Initializing objects statically
+
+45. What happens when you have method overloading with boxing/unboxing?
+- Can cause ambiguity*
+- Always works perfectly
+- Is not allowed
+- Causes runtime error
+
+46. What is true about the "is-a" vs "has-a" relationship?
+- "is-a" uses composition, "has-a" uses inheritance
+- "is-a" uses inheritance, "has-a" uses composition*
+- Both use inheritance
+- Both use composition
+
+47. What is method resolution order in multiple inheritance?
+- Random order
+- Depth-first, left-to-right*
+- Breadth-first
+- Alphabetical order
+
+48. What happens when you declare a class as both abstract and final?
+- Class cannot be instantiated or extended
+- Compilation error*
+- Class becomes concrete
+- Runtime error
+
+49. What is true about marker interfaces?
+- Have many methods
+- Have no methods but provide metadata*
+- Cannot be implemented
+- Are automatically abstract
+
+50. What is the purpose of Object.finalize() method?
+- Called automatically before garbage collection*
+- Called when object is created
+- Called when method ends
+- Called during compilation
+
+51. What happens when you override a method with weaker access modifier?
+- Method works normally
+- Compilation error*
+- Runtime error
+- Access modifier is ignored
+
+52. What is true about enum constructors in Java?
+- Are always private*
+- Can be public
+- Can be protected
+- Are automatically static
+
+53. What is association in OOP?
+- Strong ownership
+- Weak ownership
+- General relationship between classes*
+- No relationship
+
+54. What happens when you call this() and super() in same constructor?
+- Both calls execute
+- Compilation error*
+- Only first call executes
+- Runtime error
+
+55. What is true about method hiding?
+- Occurs with instance methods
+- Occurs with static methods*
+- Same as method overriding
+- Not possible in Java
+
+56. What is the observer pattern?
+- One-to-many dependency where observers are notified of changes*
+- Creating objects without specifying class
+- Ensuring single instance
+- Defining algorithm structure
+
+57. What happens when subclass method throws broader exception than parent?
+- Works normally
+- Compilation error*
+- Runtime error
+- Exception is ignored
+
+58. What is true about abstract classes vs interfaces in Java 8+?
+- No difference anymore
+- Abstract classes can have constructors, interfaces cannot*
+- Interfaces can have constructors
+- Abstract classes cannot have concrete methods
+
+59. What is method reference in Java 8?
+- Reference to existing method*
+- Creating new method
+- Overriding method
+- Hiding method
+
+60. What happens when you access protected member from different package?
+- Always allowed
+- Allowed only through inheritance*
+- Never allowed
+- Depends on JVM
+
+61. What is true about inner class and outer class relationship?
+- Inner class can exist without outer class
+- Inner class needs outer class instance*
+- Both are independent
+- Outer class needs inner class
+
+62. What is the strategy pattern?
+- Defines family of algorithms and makes them interchangeable*
+- Creates single algorithm
+- Combines multiple algorithms
+- Eliminates algorithms
+
+63. What happens when you have ambiguous method calls in overloading?
+- First method is called
+- Compilation error*
+- Runtime error
+- Random method is called
+
+64. What is true about volatile keyword?
+- Ensures atomicity
+- Ensures visibility across threads*
+- Prevents garbage collection
+- Makes variable final
+
+65. What is composition over inheritance principle?
+- Always use inheritance
+- Prefer composition over inheritance for flexibility*
+- Never use inheritance
+- Use both equally
+
+66. What happens when you compare objects using == operator?
+- Compares content
+- Compares references*
+- Causes error
+- Compares types
+
+67. What is true about generic wildcards?
+- ? extends allows read operations*
+- ? super allows write operations
+- ? extends allows write operations
+- Both above are correct
+
+68. What is the decorator pattern?
+- Adds new functionality to object dynamically*
+- Removes functionality from object
+- Creates new object type
+- Destroys existing object
+
+69. What happens when parent class doesn't have default constructor?
+- Child class must explicitly call parameterized constructor*
+- Compilation always fails
+- Child class creates default constructor
+- Runtime error occurs
+
+70. What is true about method overriding and exceptions?
+- Can throw any exception
+- Can throw same or narrower exceptions*
+- Must throw exact same exceptions
+- Cannot throw any exceptions
+
+71. What is dependency injection?
+- Providing dependencies from outside rather than creating inside*
+- Creating dependencies inside class
+- Removing all dependencies
+- Making everything static
+
+72. What happens when you synchronize on null object?
+- Works normally
+- NullPointerException*
+- Compilation error
+- Nothing happens
+
+73. What is true about equals() method contract?
+- Must be reflexive, symmetric, and transitive*
+- Only needs to return boolean
+- Can return any value
+- Is automatically generated
+
+74. What is the factory pattern?
+- Creates objects without exposing creation logic*
+- Always creates same type of object
+- Cannot create objects
+- Only creates abstract objects
+
+75. What happens when you have recursive inheritance?
+- Creates infinite hierarchy
+- Compilation error*
+- Runtime error
+- Works normally
+
+76. What is true about nested interfaces?
+- Are automatically public static*
+- Can be private
+- Cannot be implemented
+- Are instance members
+
+77. What is the command pattern?
+- Encapsulates request as object*
+- Executes commands immediately
+- Cannot undo operations
+- Only works with GUI
+
+78. What happens when you override method with different return type?
+- Works if return type is covariant*
+- Always causes compilation error
+- Always works
+- Causes runtime error
+
+79. What is true about static import?
+- Imports static members*
+- Imports instance members
+- Imports packages
+- Imports classes only
+
+80. What is the adapter pattern?
+- Allows incompatible interfaces to work together*
+- Creates new interfaces
+- Removes existing interfaces
+- Combines multiple interfaces
+
+81. What happens when you have circular reference in composition?
+- Creates memory leak*
+- Works normally
+- Compilation error
+- Runtime error
+
+82. What is true about lambda expressions and functional interfaces?
+- Lambda can implement any interface
+- Lambda can only implement functional interfaces*
+- Lambda cannot implement interfaces
+- Lambda creates anonymous classes
+
+83. What is the bridge pattern?
+- Separates abstraction from implementation*
+- Connects two abstractions
+- Creates bridge between objects
+- Removes abstractions
+
+84. What happens when you call wait() without synchronization?
+- Thread waits normally
+- IllegalMonitorStateException*
+- Compilation error
+- Nothing happens
+
+85. What is true about method local inner classes?
+- Can access all local variables
+- Can only access final/effectively final local variables*
+- Cannot access any local variables
+- Are automatically static
+
+86. What is the prototype pattern?
+- Creates objects by cloning existing instance*
+- Creates objects using constructor
+- Cannot create objects
+- Only creates prototypes
+
+87. What happens when you have diamond inheritance with interfaces having same default method?
+- Random method is chosen
+- Compilation error unless overridden*
+- First interface method is used
+- Runtime error
+
+88. What is true about serialization and inheritance?
+- Child class automatically serializable if parent is*
+- Child class never serializable if parent isn't
+- Serialization ignores inheritance
+- Only parent class is serialized
+
+89. What is the state pattern?
+- Allows object to change behavior when internal state changes*
+- Maintains constant state
+- Removes state from object
+- Creates stateless objects
+
+90. What happens when you access instance variable from static method?
+- Works normally
+- Compilation error*
+- Runtime error
+- Variable becomes static
+
+91. What is true about method references and lambda expressions?
+- Method references are always faster
+- Method references can replace some lambdas*
+- Lambdas can replace all method references
+- They cannot be used together
+
+92. What is the visitor pattern?
+- Defines operations on object structure without changing classes*
+- Visits objects randomly
+- Creates visitor objects
+- Removes objects from structure
+
+93. What happens when you override hashCode() but not equals()?
+- No problem
+- Can cause issues with hash-based collections*
+- Compilation error
+- Runtime error
+
+94. What is true about enum in switch statements?
+- Must use fully qualified names
+- Can use simple names*
+- Cannot be used in switch
+- Causes compilation error
+
+95. What is the memento pattern?
+- Captures object state for later restoration*
+- Forgets object state
+- Creates permanent state
+- Cannot restore state
+
+96. What happens when you have multiple levels of inheritance with constructors?
+- Constructors are called from child to parent
+- Constructors are called from parent to child*
+- Only child constructor is called
+- Random order of calling
+
+97. What is true about reflection and encapsulation?
+- Reflection cannot break encapsulation
+- Reflection can access private members*
+- Reflection only works with public members
+- Reflection is not allowed
+
+98. What is the iterator pattern?
+- Provides way to access elements sequentially*
+- Creates iterative algorithms
+- Removes elements from collection
+- Cannot traverse collections
+
+99. What happens when you clone object with references to mutable objects?
+- Creates deep copy automatically
+- Creates shallow copy by default*
+- Cannot clone such objects
+- Compilation error
+
+100. What is true about multiple inheritance of state vs behavior?
+- Java supports both
+- Java supports neither
+- Java supports behavior through interfaces*
+- Java supports state through interfaces
