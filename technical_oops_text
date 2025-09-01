@@ -1,0 +1,561 @@
+1. Which of the following is NOT a pillar of Object-Oriented Programming?  
+- Encapsulation  
+- Inheritance  
+- Polymorphism  
+- Compilation*
+
+2. What is encapsulation in OOP?  
+- Creating multiple classes  
+- Hiding implementation details and exposing only necessary interface*  
+- Inheriting from parent class  
+- Overloading methods
+
+3. Which keyword is used to inherit a class in Java?  
+- inherits  
+- implements  
+- extends*  
+- super
+
+4. What is polymorphism?  
+- Having multiple constructors  
+- One interface with multiple implementations*  
+- Creating abstract classes  
+- Using static methods
+
+5. Which type of inheritance is NOT supported in Java?  
+- Single inheritance  
+- Multilevel inheritance  
+- Hierarchical inheritance  
+- Multiple inheritance*
+
+6. What is method overriding?  
+- Defining multiple methods with same name  
+- Redefining parent class method in child class*  
+- Calling parent method  
+- Creating static methods
+
+7. What is method overloading?  
+- Defining methods with same name but different parameters*  
+- Redefining parent method  
+- Creating abstract methods  
+- Using final methods
+
+8. Which access modifier provides the most restrictive access?  
+- public  
+- protected  
+- default  
+- private*
+
+9. What is abstraction in OOP?  
+- Hiding unnecessary details and showing essential features*  
+- Creating objects  
+- Inheriting classes  
+- Overloading methods
+
+10. Which keyword prevents method overriding?  
+- static  
+- final*  
+- abstract  
+- synchronized
+
+11. What is a constructor?  
+- Method that destroys objects  
+- Special method to initialize objects*  
+- Method to copy objects  
+- Static method
+
+12. Can constructor be overloaded?  
+- Yes*  
+- No  
+- Only in abstract classes  
+- Only in interfaces
+
+13. What is the default access modifier for class members?  
+- public  
+- private  
+- protected  
+- package-private*
+
+14. Which of these represents IS-A relationship?  
+- Composition  
+- Aggregation  
+- Inheritance*  
+- Association
+
+15. What is composition in OOP?  
+- Inheritance relationship  
+- HAS-A relationship with strong ownership*  
+- IS-A relationship  
+- Method overloading
+
+16. Which keyword is used to call parent class constructor?  
+- this  
+- super*  
+- parent  
+- base
+
+17. What is an abstract class?  
+- Class that cannot be instantiated*  
+- Class with only static methods  
+- Class with private constructor  
+- Final class
+
+18. Can abstract class have concrete methods?  
+- Yes*  
+- No  
+- Only static methods  
+- Only private methods
+
+19. What is an interface?  
+- Abstract class  
+- Contract specifying method signatures*  
+- Concrete class  
+- Inner class
+
+20. How many classes can Java class extend?  
+- One*  
+- Two  
+- Multiple  
+- Unlimited
+
+21. How many interfaces can Java class implement?  
+- One  
+- Two  
+- Multiple*  
+- None
+
+22. What is the difference between abstract class and interface?  
+- Abstract class can have concrete methods, interface cannot  
+- Abstract class supports single inheritance, interface supports multiple*  
+- No difference  
+- Interface can be instantiated
+
+23. Which keyword implements an interface?  
+- extends  
+- implements*  
+- inherits  
+- uses
+
+24. What is dynamic binding?  
+- Compile-time method resolution  
+- Runtime method resolution*  
+- Static method binding  
+- Constructor binding
+
+25. What is static binding?  
+- Runtime method resolution  
+- Compile-time method resolution*  
+- Dynamic method binding  
+- Interface binding
+
+26. Which methods use static binding?  
+- Virtual methods  
+- Overridden methods  
+- Static, private, and final methods*  
+- Abstract methods
+
+27. What is a virtual method?  
+- Method that can be overridden*  
+- Abstract method  
+- Static method  
+- Final method
+
+28. What does 'this' keyword refer to?  
+- Parent class object  
+- Current class object*  
+- Static variable  
+- Method parameter
+
+29. What does 'super' keyword refer to?  
+- Current class  
+- Parent class*  
+- Child class  
+- Interface
+
+30. Which relationship is represented by composition?  
+- IS-A  
+- HAS-A*  
+- CAN-DO  
+- USES-A
+
+31. What is aggregation?  
+- Strong HAS-A relationship  
+- Weak HAS-A relationship*  
+- IS-A relationship  
+- Inheritance relationship
+
+32. What is association in OOP?  
+- Inheritance  
+- Relationship between classes*  
+- Method overloading  
+- Encapsulation
+
+33. Which principle suggests "program to interface, not implementation"?  
+- Encapsulation  
+- Abstraction*  
+- Inheritance  
+- Polymorphism
+
+34. What is early binding?  
+- Runtime binding  
+- Compile-time binding*  
+- Dynamic binding  
+- Late binding
+
+35. What is late binding?  
+- Compile-time binding  
+- Runtime binding*  
+- Static binding  
+- Early binding
+
+36. Which type of polymorphism is achieved through method overloading?  
+- Runtime polymorphism  
+- Compile-time polymorphism*  
+- Dynamic polymorphism  
+- Static polymorphism
+
+37. Which type of polymorphism is achieved through method overriding?  
+- Compile-time polymorphism  
+- Runtime polymorphism*  
+- Static polymorphism  
+- Early polymorphism
+
+38. What is data hiding?  
+- Making data private*  
+- Deleting data  
+- Copying data  
+- Static data
+
+39. What is information hiding?  
+- Deleting information  
+- Hiding implementation details*  
+- Static information  
+- Public information
+
+40. Which access modifier allows access within package and subclasses?  
+- private  
+- public  
+- protected*  
+- default
+
+41. What is a final class?  
+- Class that can be extended  
+- Class that cannot be extended*  
+- Abstract class  
+- Interface
+
+42. Can final class be instantiated?  
+- Yes*  
+- No  
+- Only once  
+- Only through inheritance
+
+43. What is method signature?  
+- Method name and return type  
+- Method name and parameters*  
+- Return type only  
+- Parameters only
+
+44. Can constructor be private?  
+- Yes*  
+- No  
+- Only in abstract class  
+- Only in final class
+
+45. What is singleton pattern?  
+- Class with multiple instances  
+- Class with exactly one instance*  
+- Abstract class  
+- Interface
+
+46. What is method chaining?  
+- Calling multiple methods sequentially  
+- Returning this from methods to enable fluent interface*  
+- Method overloading  
+- Method overriding
+
+47. What is a nested class?  
+- Class defined inside another class*  
+- Inherited class  
+- Abstract class  
+- Interface
+
+48. What is an inner class?  
+- Static nested class  
+- Non-static nested class*  
+- Abstract class  
+- Final class
+
+49. What is anonymous class?  
+- Class with no name*  
+- Abstract class  
+- Static class  
+- Final class
+
+50. Which keyword creates anonymous inner class?  
+- class  
+- new*  
+- anonymous  
+- inner
+
+51. What is multiple inheritance?  
+- Class inheriting from one parent  
+- Class inheriting from multiple parents*  
+- Multiple classes inheriting from one parent  
+- No inheritance
+
+52. Why doesn't Java support multiple inheritance of classes?  
+- Performance issues  
+- Diamond problem*  
+- Memory issues  
+- Syntax complexity
+
+53. What is diamond problem?  
+- Performance issue  
+- Ambiguity in multiple inheritance*  
+- Memory leak  
+- Compilation error
+
+54. How does Java achieve multiple inheritance?  
+- Through classes  
+- Through interfaces*  
+- Through abstract classes  
+- Not possible
+
+55. What is method resolution order?  
+- Order of method execution  
+- Order in which methods are resolved in inheritance hierarchy*  
+- Method overloading order  
+- Constructor calling order
+
+56. What happens when child class doesn't call parent constructor explicitly?  
+- Compilation error  
+- Default parent constructor called automatically*  
+- Runtime error  
+- Nothing happens
+
+57. What is constructor chaining?  
+- Calling multiple constructors in sequence*  
+- Constructor overloading  
+- Constructor overriding  
+- Static constructor
+
+58. Can constructor be inherited?  
+- Yes  
+- No*  
+- Only public constructors  
+- Only protected constructors
+
+59. What is copy constructor?  
+- Default constructor  
+- Constructor that creates copy of object*  
+- Static constructor  
+- Private constructor
+
+60. What is shallow copy?  
+- Copying object with references to original nested objects*  
+- Complete independent copy  
+- Copying only primitive fields  
+- Not copying anything
+
+61. What is deep copy?  
+- Copying references only  
+- Complete independent copy of object and all nested objects*  
+- Shallow copy  
+- Copying primitive fields only
+
+62. What is object cloning?  
+- Creating reference to object  
+- Creating copy of object*  
+- Destroying object  
+- Modifying object
+
+63. Which interface enables object cloning in Java?  
+- Serializable  
+- Cloneable*  
+- Comparable  
+- Runnable
+
+64. What is immutable object?  
+- Object that can be modified  
+- Object that cannot be modified after creation*  
+- Static object  
+- Final object
+
+65. Which class is example of immutable class?  
+- StringBuilder  
+- StringBuffer  
+- String*  
+- ArrayList
+
+66. What is mutable object?  
+- Object that cannot be changed  
+- Object that can be modified*  
+- Static object  
+- Final object
+
+67. What is object lifecycle?  
+- Creation, usage, and destruction of object*  
+- Method calling sequence  
+- Inheritance hierarchy  
+- Class definition
+
+68. What is garbage collection in context of OOP?  
+- Manual memory management  
+- Automatic memory management*  
+- Object creation  
+- Method calling
+
+69. What is finalize method?  
+- Constructor  
+- Method called before garbage collection*  
+- Static method  
+- Abstract method
+
+70. What is object initialization?  
+- Creating object reference  
+- Setting initial values to object attributes*  
+- Destroying object  
+- Copying object
+
+71. What is static method?  
+- Method belonging to object  
+- Method belonging to class*  
+- Abstract method  
+- Final method
+
+72. Can static method be overridden?  
+- Yes  
+- No*  
+- Only in abstract class  
+- Only in interface
+
+73. What is static variable?  
+- Variable belonging to object  
+- Variable belonging to class*  
+- Local variable  
+- Parameter
+
+74. What is instance variable?  
+- Static variable  
+- Variable belonging to object*  
+- Local variable  
+- Class variable
+
+75. What is local variable?  
+- Class variable  
+- Instance variable  
+- Variable declared inside method*  
+- Static variable
+
+76. What is class variable?  
+- Instance variable  
+- Static variable*  
+- Local variable  
+- Parameter
+
+77. What is object state?  
+- Method implementation  
+- Current values of object attributes*  
+- Class definition  
+- Static variables
+
+78. What is object behavior?  
+- Object attributes  
+- Object methods*  
+- Object creation  
+- Object destruction
+
+79. What is class?  
+- Instance of object  
+- Blueprint/template for objects*  
+- Method implementation  
+- Variable declaration
+
+80. What is object?  
+- Class definition  
+- Instance of class*  
+- Method  
+- Variable
+
+81. What is instantiation?  
+- Class definition  
+- Creating object from class*  
+- Method calling  
+- Variable declaration
+
+82. What is reference variable?  
+- Primitive variable  
+- Variable that holds object address*  
+- Static variable  
+- Local variable
+
+83. What is null reference?  
+- Reference to object  
+- Reference not pointing to any object*  
+- Static reference  
+- Final reference
+
+84. What is method?  
+- Variable  
+- Function defined in class*  
+- Object  
+- Class
+
+85. What is attribute?  
+- Method  
+- Variable defined in class*  
+- Object  
+- Class
+
+86. What is property?  
+- Public attribute  
+- Attribute with getter/setter methods*  
+- Method  
+- Constructor
+
+87. What is accessor method?  
+- Constructor  
+- Getter method*  
+- Static method  
+- Abstract method
+
+88. What is mutator method?  
+- Getter method  
+- Setter method*  
+- Constructor  
+- Static method
+
+89. What is cohesion in OOP?  
+- Relationship between classes  
+- How closely related class members are*  
+- Inheritance hierarchy  
+- Method overloading
+
+90. What is coupling in OOP?  
+- Method binding  
+- Degree of interdependence between classes*  
+- Inheritance  
+- Encapsulation
+
+91. What is tight coupling?  
+- Loose relationship between classes  
+- Strong interdependence between classes*  
+- No relationship  
+- Inheritance relationship
+
+92. What is loose coupling?  
+- Strong interdependence  
+- Minimal interdependence between classes*  
+- No relationship  
+- Inheritance relationship
+
+93. What is high cohesion?  
+- Class members are unrelated  
+- Class members work together toward single purpose*  
+- Multiple responsibilities  
+- Low coupling
+
+94. What is message passing?  
+- Variable assignment  
+- Object communication through method calls*
