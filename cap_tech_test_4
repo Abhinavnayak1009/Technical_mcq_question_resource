@@ -1,0 +1,599 @@
+301. Which of these design patterns provides a global point of access to an object?  
+- Factory  
+- Singleton*  
+- Observer  
+- Decorator
+
+302. What is the primary purpose of the Visitor pattern?  
+- Add state to objects  
+- Perform operations on object structure without modifying classes*  
+- Create new classes at runtime  
+- Provide default implementations
+
+303. Which pattern allows you to undo and redo requests?  
+- Command*  
+- Strategy  
+- Adapter  
+- Bridge
+
+304. What does the Builder pattern separate?  
+- Initialization and representation*  
+- Interface and implementation  
+- Client and server  
+- API and implementation
+
+305. Which pattern is used to convert the interface of one class into another?  
+- Factory  
+- Observer  
+- Adapter*  
+- Prototype
+
+306. What is the difference between the Prototype and Factory patterns?  
+- Prototype clones existing instances, Factory creates new ones*  
+- Factory clones instances, Prototype creates new ones  
+- Both do the same  
+- Neither is used for creating objects
+
+307. Which pattern provides a surrogate for another object?  
+- Proxy*  
+- Builder  
+- Strategy  
+- Observer
+
+308. Which pattern is used to define a family of algorithms and make them interchangeable?  
+- Strategy*  
+- Command  
+- Singleton  
+- Decorator
+
+309. What does the Decorator pattern allow you to do?  
+- Change an object’s behavior at runtime*  
+- Hide object structure  
+- Clone objects  
+- Enforce singleton
+
+310. Which pattern ensures a class has only one instance?  
+- Adapter  
+- Strategy  
+- Singleton*  
+- Prototype
+
+311. What is the Flyweight pattern used for?  
+- Reduce number of objects by sharing*  
+- Create deep copies  
+- Create multiple instances  
+- Manage threads
+
+312. Which pattern encapsulates a request as an object?  
+- Command*  
+- Visitor  
+- Strategy  
+- Adapter
+
+313. The Observer pattern defines what?  
+- One-to-many dependency*  
+- Many-to-one dependency  
+- Singleton access  
+- Object creation
+
+314. Which pattern provides uniform interface to a set of interfaces?  
+- Facade*  
+- Bridge  
+- Proxy  
+- Adapter
+
+315. The Bridge pattern decouples what?  
+- Abstraction from implementation*  
+- Clients from servers  
+- Methods from classes  
+- Interfaces from inheritance
+
+316. What is a key benefit of the Facade pattern?  
+- Simplifies complex subsystem*  
+- Creates single instance  
+- Clones objects  
+- Hides algorithm
+
+317. Which pattern provides dynamic attachment of responsibilities?  
+- Composite  
+- Decorator*  
+- Strategy  
+- Observer
+
+318. Which pattern represents tree structures?  
+- Composite*  
+- Chain of Responsibility  
+- Bridge  
+- Iterator
+
+319. The Chain of Responsibility pattern avoids what?  
+- Tight coupling between sender and receiver*  
+- Creation of multiple instances  
+- Deep copying  
+- Direct references
+
+320. Which UML diagram shows object relationships?  
+- Class diagram  
+- Sequence diagram  
+- Object diagram*  
+- Use case diagram
+
+321. Which diagram models system behavior over time?  
+- Activity diagram  
+- State machine diagram  
+- Sequence diagram*  
+- Class diagram
+
+322. Which UML diagram shows workflows?  
+- Component diagram  
+- Activity diagram*  
+- Deployment diagram  
+- Package diagram
+
+323. Which UML diagram depicts component dependencies?  
+- Package diagram  
+- Component diagram*  
+- Deployment diagram  
+- Use case diagram
+
+324. What does MVC stand for in software architecture?  
+- Model-View-Controller*  
+- Module-View-Channel  
+- Model-View-Channel  
+- Manager-View-Controller
+
+325. In MVC, which component handles user input?  
+- Model  
+- View  
+- Controller*  
+- Presenter
+
+326. Which pattern introduces an intermediary between two objects?  
+- Mediator*  
+- Observer  
+- Singleton  
+- Adapter
+
+327. What is the responsibility of the Presenter in MVP?  
+- Handle user input*  
+- Manage view layout  
+- Store data  
+- Manage threads
+
+328. Which architecture separates concerns into layers?  
+- Monolithic  
+- Layered*  
+- Microkernel  
+- Event-driven
+
+329. What does SOA stand for?  
+- Service-Oriented Architecture*  
+- Simple Object Access  
+- Single Object API  
+- Sequential Object Architecture
+
+330. Which messaging pattern uses message queues?  
+- Publish-Subscribe*  
+- Request-Reply  
+- Observer  
+- Singleton
+
+331. What is the main goal of CQRS?  
+- Separate read and write models*  
+- Implement caching  
+- Simplify transactions  
+- Merge services
+
+332. Which pattern uses events to trigger actions?  
+- Observer*  
+- Command  
+- Adapter  
+- Bridge
+
+333. What is the main advantage of event-driven architecture?  
+- Tight coupling  
+- Scalability and decoupling*  
+- Simplified transactions  
+- Synchronous processing
+
+334. Which pattern is useful for caching frequently accessed data?  
+- Proxy*  
+- Adapter  
+- Factory  
+- Observer
+
+335. What is the purpose of the Data Access Object (DAO) pattern?  
+- Separate persistence logic from business logic*  
+- Create REST endpoints  
+- Manage threads  
+- Handle UI events
+
+336. Which pattern is used to provide a simple interface to a complex subsystem?  
+- Facade*  
+- Adapter  
+- Proxy  
+- Strategy
+
+337. The Null Object pattern is used to avoid what?  
+- Null checks*  
+- Object creation  
+- Method overloading  
+- Thread blocking
+
+338. Which pattern represents part-whole hierarchies?  
+- Composite*  
+- Decorator  
+- Facade  
+- Bridge
+
+339. Which pattern allows adding behavior before or after method calls?  
+- Interceptor*  
+- Adapter  
+- Proxy  
+- Command
+
+340. What is the main use of the Template Method pattern?  
+- Define skeleton of algorithm, let subclasses implement steps*  
+- Create new algorithms  
+- Override default methods  
+- Manage threads
+
+341. Which principle does Dependency Injection exemplify?  
+- Single Responsibility  
+- Open/Closed  
+- Dependency Inversion*  
+- Liskov Substitution
+
+342. Which pattern centralizes complex communications between objects?  
+- Mediator*  
+- Observer  
+- Singleton  
+- Prototype
+
+343. Which pattern dynamically changes object behavior?  
+- Strategy*  
+- Singleton  
+- Builder  
+- Prototype
+
+344. Which pattern is used for object pooling?  
+- Flyweight  
+- Object Pool*  
+- Factory  
+- Singleton
+
+345. What is the main benefit of object pooling?  
+- Reduce object creation overhead*  
+- Simplify code  
+- Guarantee thread safety  
+- Avoid garbage collection
+
+346. In microservices, what does API Gateway pattern do?  
+- Single service for all data  
+- Single entry point for clients*  
+- Database gateway  
+- Authentication service
+
+347. Which pattern handles failover in microservices?  
+- Circuit Breaker*  
+- Retry  
+- Bulkhead  
+- Singleton
+
+348. What does the Bulkhead pattern isolate?  
+- Network calls  
+- Failures in isolated components*  
+- Singletons  
+- Threads
+
+349. Which pattern controls the rate of requests?  
+- Circuit Breaker  
+- Throttling*  
+- Retry  
+- Singleton
+
+350. Which pattern retries failed operations?  
+- Retry*  
+- Circuit Breaker  
+- Bulkhead  
+- Singleton
+
+351. Which pattern partitions a system into bounded contexts?  
+- Domain-Driven Design*  
+- Microkernel  
+- Layered  
+- Event-driven
+
+352. What is the Strangler pattern used for?  
+- Incremental system replacement*  
+- Single large system  
+- Monolithic design  
+- Immediate rewrite
+
+353. Which pattern handles user session state across stateless services?  
+- Session facade*  
+- Session factory  
+- Session observer  
+- Session decorator
+
+354. Which logging pattern ensures minimal performance impact?  
+- Asynchronous logging*  
+- Synchronous logging  
+- Blocking logging  
+- Network logging
+
+355. What does ACID guarantee in transactions?  
+- Speed  
+- Consistency and reliability*  
+- Parallelism  
+- Scalability
+
+356. Which pattern supports eventual consistency?  
+- Saga*  
+- Two-phase commit  
+- Singleton  
+- Prototype
+
+357. What is the purpose of the Saga pattern?  
+- Manage long-running transactions*  
+- Short transactions only  
+- Two-phase commit  
+- Synchronous processing
+
+358. Which pattern manages state transitions in resilient workflows?  
+- State Machine*  
+- Strategy  
+- Observer  
+- Singleton
+
+359. Which pattern allows building objects step by step?  
+- Builder*  
+- Factory  
+- Singleton  
+- Prototype
+
+360. Which pattern provides a family of related objects without specifying classes?  
+- Abstract Factory*  
+- Factory  
+- Builder  
+- Prototype
+
+361. What is the purpose of the Factory Method pattern?  
+- Define interface for creating objects, let subclasses decide class*  
+- Instantiate single object  
+- Clone prototypes  
+- Decorate objects
+
+362. Which pattern decouples abstraction from implementation in file systems?  
+- Bridge*  
+- Adapter  
+- Proxy  
+- Command
+
+363. Which pattern is used to implement callbacks?  
+- Observer*  
+- Visitor  
+- Builder  
+- Singleton
+
+364. What is the main advantage of using interfaces over abstract classes?  
+- Multiple inheritance support*  
+- Concrete method definitions  
+- Fields with state  
+- Private constructors
+
+365. Which pattern encapsulates operations as objects for undo?  
+- Command*  
+- Strategy  
+- Observer  
+- Factory
+
+366. What does the MVC pattern separate?  
+- Model, View, Controller roles*  
+- Threads, Processes, Services  
+- Data, Code, Tests  
+- Client, Server, Database
+
+367. Which pattern ensures backward compatibility when evolving interfaces?  
+- Adapter*  
+- Proxy  
+- Facade  
+- Bridge
+
+368. Which pattern provides single instance per thread?  
+- Singleton  
+- ThreadLocal*  
+- Prototype  
+- Factory
+
+369. What is the purpose of the Registry pattern?  
+- Global object storage*  
+- Manage threads  
+- Central logging  
+- Retry operations
+
+370. Which pattern groups objects into tree structures and treats them uniformly?  
+- Composite*  
+- Bridge  
+- Adapter  
+- Proxy
+
+371. Which pattern defines families of related algorithms?  
+- Strategy*  
+- Visitor  
+- Factory  
+- Decorator
+
+372. What is the purpose of the Memento pattern?  
+- Capture and restore object state*  
+- Clone objects  
+- Destroy objects  
+- Serialize objects
+
+373. Which pattern allows to wrap an object to modify its behavior?  
+- Decorator*  
+- Adapter  
+- Facade  
+- Singleton
+
+374. What is the primary use of the Proxy pattern?  
+- Control access to object*  
+- Create new objects  
+- Manage threads  
+- Persist data
+
+375. Which pattern separates object construction from representation?  
+- Builder*  
+- Factory  
+- Singleton  
+- Prototype
+
+376. What is the purpose of the Command pattern?  
+- Encapsulate request as object*  
+- Decorate objects  
+- Adapt interfaces  
+- Singleton access
+
+377. Which pattern defines an interface for creating families of related or dependent objects?  
+- Factory  
+- Abstract Factory*  
+- Builder  
+- Prototype
+
+378. What does the Chain of Responsibility pattern do?  
+- Pass request along chain until handled*  
+- Execute requests in parallel  
+- Queue requests  
+- Singleton request
+
+379. Which pattern merges multiple behaviors into a single interface at runtime?  
+- Decorator*  
+- Adapter  
+- Strategy  
+- Observer
+
+380. What is the main benefit of the Template Method pattern?  
+- Code reuse across algorithms*  
+- Create new algorithms  
+- Manage threads  
+- Decorate objects
+
+381. Which pattern provides default behavior for interfaces in Java 8?  
+- Adapter  
+- Default Method*  
+- Visitor  
+- Bridge
+
+382. What is the purpose of the Flyweight pattern?  
+- Share common objects to reduce memory*  
+- Create large number of distinct objects  
+- Serialize objects  
+- Manage threads
+
+383. Which pattern simplifies creating complex objects with many optional parameters?  
+- Prototype  
+- Builder*  
+- Factory  
+- Singleton
+
+384. What is the primary use of the Observer pattern in GUIs?  
+- Notify UI of model changes*  
+- Render UI  
+- Serialize UI state  
+- Manage threads
+
+385. Which pattern encapsulates varying part of algorithm and keeps invariant intact?  
+- Template Method*  
+- Strategy  
+- Decorator  
+- Proxy
+
+386. What does the Interpreter pattern do?  
+- Interpret grammar of language*  
+- Create singletons  
+- Adapt interfaces  
+- Decorate objects
+
+387. Which pattern defines an interface for creating objects, letting subclasses decide which to instantiate?  
+- Factory Method*  
+- Abstract Factory  
+- Builder  
+- Prototype
+
+388. What is the main advantage of the Prototype pattern?  
+- Avoid expensive object creation by cloning*  
+- Single instance  
+- Global access  
+- Decorate objects
+
+389. Which pattern decouples sender and receiver in message handling?  
+- Observer  
+- Mediator*  
+- Singleton  
+- Builder
+
+390. What is the primary use of the State pattern?  
+- Allow object behavior to change with state*  
+- Manage threads  
+- Decorate objects  
+- Singleton
+
+391. Which pattern routes requests through a chain of handlers?  
+- Chain of Responsibility*  
+- Command  
+- Strategy  
+- Observer
+
+392. What does the Visitor pattern separate?  
+- Operation from object structure*  
+- Threads from processes  
+- Data from code  
+- UI from business logic
+
+393. Which pattern allows wrapper objects to present the same interface as wrapped objects?  
+- Proxy*  
+- Decorator  
+- Adapter  
+- Strategy
+
+394. What is the purpose of the Data Transfer Object (DTO) pattern?  
+- Transfer data between layers*  
+- Transfer control flow  
+- Transfer threads  
+- Transfer processes
+
+395. Which pattern prevents direct access to a resource and adds additional behavior?  
+- Proxy*  
+- Adapter  
+- Observer  
+- Singleton
+
+396. What does the Singleton pattern ensure?  
+- Only one instance and global access*  
+- Multiple instances only  
+- No instances  
+- New instance per call
+
+397. Which pattern enables objects to be notified of changes in another object?  
+- Observer*  
+- Command  
+- Decorator  
+- Builder
+
+398. What is the primary benefit of the Visitor pattern?  
+- Add operations without changing classes*  
+- Simplify object creation  
+- Decorate objects  
+- Manage threads
+
+399. Which pattern is used to manage stateful session beans in EJB?  
+- Singleton  
+- Factory  
+- Prototype  
+- Stateful Session Bean*  
+
+400. What is the difference between the Abstract Factory and Factory Method patterns?  
+- Abstract Factory creates families of related objects, Factory Method creates one*  
+- Factory Method creates families, Abstract creates one  
+- Both are identical  
+- Neither is used for object creation
