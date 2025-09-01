@@ -1,0 +1,599 @@
+1. Which sorting algorithm has the best average-case time complexity?
+- Bubble Sort
+- Quick Sort*
+- Selection Sort
+- Insertion Sort
+
+2. What is the primary purpose of a firewall?
+- Speed up internet connection
+- Block unauthorized access*
+- Increase bandwidth
+- Manage user accounts
+
+3. In object-oriented programming, what does encapsulation mean?
+- Hiding implementation details*
+- Creating multiple objects
+- Inheriting from parent classes
+- Overloading methods
+
+4. Which SQL command is used to retrieve data from a database?
+- INSERT
+- DELETE
+- SELECT*
+- UPDATE
+
+5. What is the time complexity of binary search?
+- O(n)
+- O(log n)*
+- O(n²)
+- O(n log n)
+
+6. Which of the following is NOT a programming paradigm?
+- Object-oriented
+- Functional
+- Procedural
+- Compilation*
+
+7. What does HTTP stand for?
+- HyperText Transfer Protocol*
+- High Transfer Text Protocol
+- HyperText Terminal Protocol
+- Home Text Transfer Protocol
+
+8. In Java, which keyword is used to prevent inheritance?
+- static
+- final*
+- abstract
+- private
+
+9. What is the default port number for HTTP?
+- 21
+- 25
+- 80*
+- 443
+
+10. Which data structure uses LIFO principle?
+- Queue
+- Array
+- Stack*
+- Linked List
+
+11. What is polymorphism in OOP?
+- One name, multiple forms*
+- Data hiding
+- Code reusability
+- Memory management
+
+12. Which protocol is used for secure web communication?
+- HTTP
+- FTP
+- HTTPS*
+- SMTP
+
+13. What is the worst-case time complexity of Quick Sort?
+- O(n log n)
+- O(n²)*
+- O(log n)
+- O(n)
+
+14. In database normalization, what does 1NF ensure?
+- No duplicate rows
+- Atomic values in each cell*
+- No partial dependencies
+- No transitive dependencies
+
+15. Which of the following is a NoSQL database?
+- MySQL
+- PostgreSQL
+- MongoDB*
+- Oracle
+
+16. What is the purpose of an index in databases?
+- Store data
+- Speed up queries*
+- Backup data
+- Encrypt data
+
+17. Which sorting algorithm is stable?
+- Quick Sort
+- Heap Sort
+- Merge Sort*
+- Selection Sort
+
+18. What does API stand for?
+- Application Programming Interface*
+- Advanced Programming Interface
+- Application Process Interface
+- Automated Programming Interface
+
+19. In networking, what does DNS do?
+- Transfers files
+- Resolves domain names to IP addresses*
+- Manages email
+- Provides security
+
+20. Which of the following is NOT a valid IP address?
+- 192.168.1.1
+- 10.0.0.1
+- 256.1.1.1*
+- 172.16.0.1
+
+21. What is the space complexity of merge sort?
+- O(1)
+- O(log n)
+- O(n)*
+- O(n²)
+
+22. Which HTTP method is used to send data to a server?
+- GET
+- POST*
+- PUT
+- DELETE
+
+23. What is a deadlock in operating systems?
+- Process termination
+- Circular waiting for resources*
+- Memory overflow
+- CPU scheduling
+
+24. Which of the following is a compiled language?
+- Python
+- JavaScript
+- C++*
+- PHP
+
+25. What does ACID stand for in databases?
+- Atomicity, Consistency, Isolation, Durability*
+- Access, Control, Integration, Data
+- Application, Code, Interface, Design
+- Algorithm, Computation, Implementation, Development
+
+26. Which data structure is used for BFS traversal?
+- Stack
+- Queue*
+- Array
+- Linked List
+
+27. What is the primary key in a database table?
+- Any column
+- Unique identifier for each row*
+- First column
+- Last column
+
+28. Which algorithm is used for finding shortest path?
+- DFS
+- BFS
+- Dijkstra's*
+- Quick Sort
+
+29. What is inheritance in OOP?
+- Acquiring properties from parent class*
+- Creating objects
+- Hiding data
+- Method overloading
+
+30. Which of the following is a symmetric encryption algorithm?
+- RSA
+- AES*
+- DSA
+- ECC
+
+31. What is the default value of boolean in Java?
+- true
+- false*
+- null
+- 0
+
+32. Which network topology has highest reliability?
+- Bus
+- Star
+- Mesh*
+- Ring
+
+33. What is the purpose of foreign key?
+- Unique identification
+- Maintain referential integrity*
+- Index creation
+- Data encryption
+
+34. Which sorting algorithm has O(n) best case complexity?
+- Quick Sort
+- Bubble Sort*
+- Merge Sort
+- Heap Sort
+
+35. What does CPU stand for?
+- Central Processing Unit*
+- Computer Processing Unit
+- Central Program Unit
+- Computer Program Unit
+
+36. Which of the following is NOT an operating system?
+- Windows
+- Linux
+- macOS
+- Oracle*
+
+37. What is the maximum value of a byte?
+- 127
+- 255*
+- 256
+- 128
+
+38. Which protocol is used for email transmission?
+- HTTP
+- FTP
+- SMTP*
+- DNS
+
+39. What is abstraction in OOP?
+- Hiding implementation details*
+- Creating objects
+- Method overloading
+- Data storage
+
+40. Which of the following is a lossless compression algorithm?
+- JPEG
+- MP3
+- ZIP*
+- MP4
+
+41. What is the time complexity of inserting an element at the beginning of an array?
+- O(1)
+- O(log n)
+- O(n)*
+- O(n²)
+
+42. Which SQL clause is used to filter records?
+- ORDER BY
+- GROUP BY
+- WHERE*
+- HAVING
+
+43. What is a constructor in OOP?
+- Method to destroy objects
+- Special method to initialize objects*
+- Method to copy objects
+- Static method
+
+44. Which of the following is an interpreted language?
+- C
+- C++
+- Java
+- Python*
+
+45. What does URL stand for?
+- Uniform Resource Locator*
+- Universal Resource Locator
+- Uniform Reference Locator
+- Universal Reference Locator
+
+46. Which data structure is used for DFS traversal?
+- Queue
+- Stack*
+- Array
+- Hash Table
+
+47. What is normalization in databases?
+- Data encryption
+- Reducing data redundancy*
+- Data backup
+- Data compression
+
+48. Which algorithm is best for sorting small arrays?
+- Quick Sort
+- Merge Sort
+- Insertion Sort*
+- Heap Sort
+
+49. What is method overloading?
+- Same method name, different parameters*
+- Different method names
+- Inheriting methods
+- Hiding methods
+
+50. Which of the following is NOT a web browser?
+- Chrome
+- Firefox
+- Safari
+- Apache*
+
+51. What is the binary representation of decimal 10?
+- 1010*
+- 1100
+- 1001
+- 1011
+
+52. Which protocol operates at the transport layer?
+- IP
+- TCP*
+- Ethernet
+- HTTP
+
+53. What is a hash table used for?
+- Sorting data
+- Fast data retrieval*
+- Data compression
+- Data encryption
+
+54. Which of the following is NOT a valid variable name in most programming languages?
+- myVariable
+- _variable
+- variable123
+- 123variable*
+
+55. What is the purpose of a compiler?
+- Execute programs
+- Translate source code to machine code*
+- Debug programs
+- Test programs
+
+56. Which sorting algorithm is NOT comparison-based?
+- Quick Sort
+- Merge Sort
+- Counting Sort*
+- Heap Sort
+
+57. What does RAM stand for?
+- Random Access Memory*
+- Read Access Memory
+- Rapid Access Memory
+- Remote Access Memory
+
+58. Which of the following is a markup language?
+- Java
+- Python
+- HTML*
+- C++
+
+59. What is the default access modifier in Java?
+- public
+- private
+- protected
+- package-private*
+
+60. Which algorithm is used for pattern matching?
+- Quick Sort
+- Binary Search
+- KMP Algorithm*
+- Bubble Sort
+
+61. What is the purpose of an operating system?
+- Run applications only
+- Manage hardware and software resources*
+- Store data only
+- Provide internet access
+
+62. Which of the following is NOT a type of software testing?
+- Unit testing
+- Integration testing
+- System testing
+- Compilation testing*
+
+63. What is the time complexity of accessing an element in an array by index?
+- O(1)*
+- O(log n)
+- O(n)
+- O(n²)
+
+64. Which SQL command is used to modify existing records?
+- INSERT
+- SELECT
+- UPDATE*
+- DELETE
+
+65. What is method overriding in OOP?
+- Redefining parent class method in child class*
+- Creating multiple methods with same name
+- Hiding parent class methods
+- Calling parent class methods
+
+66. Which of the following is a version control system?
+- Git*
+- Apache
+- MySQL
+- Eclipse
+
+67. What is the maximum number of nodes at level k in a binary tree?
+- k
+- 2^k*
+- 2k
+- k²
+
+68. Which protocol is used for file transfer?
+- HTTP
+- SMTP
+- FTP*
+- DNS
+
+69. What is encapsulation in OOP?
+- Data hiding and bundling with methods*
+- Creating multiple objects
+- Inheriting properties
+- Method overloading
+
+70. Which of the following is NOT a primary color in RGB?
+- Red
+- Green
+- Blue
+- Yellow*
+
+71. What is the space complexity of bubble sort?
+- O(1)*
+- O(log n)
+- O(n)
+- O(n²)
+
+72. Which HTML tag is used for creating hyperlinks?
+- <link>
+- <href>
+- <a>*
+- <url>
+
+73. What is a foreign key constraint used for?
+- Ensure data uniqueness
+- Maintain referential integrity*
+- Speed up queries
+- Encrypt data
+
+74. Which of the following is NOT a feature of object-oriented programming?
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Compilation*
+
+75. What is the default port for HTTPS?
+- 80
+- 443*
+- 21
+- 25
+
+76. Which data structure allows insertion and deletion at both ends?
+- Stack
+- Queue
+- Deque*
+- Array
+
+77. What is SQL injection?
+- Database optimization technique
+- Security vulnerability*
+- Data compression method
+- Query optimization
+
+78. Which algorithm has the best worst-case time complexity for sorting?
+- Quick Sort
+- Bubble Sort
+- Merge Sort*
+- Selection Sort
+
+79. What does CSS stand for?
+- Computer Style Sheets
+- Cascading Style Sheets*
+- Creative Style Sheets
+- Colorful Style Sheets
+
+80. Which of the following is NOT a relational database?
+- MySQL
+- PostgreSQL
+- MongoDB*
+- SQLite
+
+81. What is the time complexity of linear search?
+- O(1)
+- O(log n)
+- O(n)*
+- O(n²)
+
+82. Which protocol is connectionless?
+- TCP
+- UDP*
+- HTTP
+- FTP
+
+83. What is inheritance in database?
+- Table relationships
+- Data copying
+- Not applicable to databases*
+- Data encryption
+
+84. Which of the following is a high-level programming language?
+- Assembly
+- Machine Language
+- Java*
+- Binary Code
+
+85. What is the purpose of a router?
+- Store data
+- Forward packets between networks*
+- Provide security
+- Manage files
+
+86. Which sorting algorithm uses divide and conquer?
+- Bubble Sort
+- Selection Sort
+- Merge Sort*
+- Insertion Sort
+
+87. What is a deadlock prevention technique?
+- Banker's Algorithm*
+- Round Robin
+- FIFO
+- Priority Scheduling
+
+88. Which of the following is NOT a type of network?
+- LAN
+- WAN
+- MAN
+- DAN*
+
+89. What is the binary equivalent of hexadecimal F?
+- 1111*
+- 1110
+- 1101
+- 1100
+
+90. Which HTTP status code indicates "Not Found"?
+- 200
+- 301
+- 404*
+- 500
+
+91. What is polymorphism achieved through in Java?
+- Method overloading and overriding*
+- Constructor overloading only
+- Variable hiding
+- Static methods
+
+92. Which of the following is a non-blocking I/O model?
+- Synchronous I/O
+- Asynchronous I/O*
+- Blocking I/O
+- None of the above
+
+93. What is the purpose of DNS caching?
+- Security
+- Speed up domain name resolution*
+- Store web pages
+- Encrypt data
+
+94. Which algorithm is used in heap sort?
+- Heapify*
+- Quick partition
+- Merge process
+- Bubble technique
+
+95. What is a clustered index?
+- Index stored separately from data
+- Index that determines physical order of data*
+- Temporary index
+- Encrypted index
+
+96. Which of the following is NOT a JavaScript data type?
+- String
+- Number
+- Boolean
+- Character*
+
+97. What is the purpose of virtual memory?
+- Increase physical RAM
+- Extend available memory using disk space*
+- Speed up CPU
+- Store programs permanently
+
+98. Which protocol is used for network time synchronization?
+- HTTP
+- FTP
+- NTP*
+- SMTP
+
+99. What is the worst-case space complexity of quick sort?
+- O(1)
+- O(log n)*
+- O(n)
+- O(n²)
+
+100. Which of the following is NOT a cloud service model?
+- IaaS
+- PaaS
+- SaaS
+- TaaS*
