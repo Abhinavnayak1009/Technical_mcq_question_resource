@@ -1,0 +1,599 @@
+401. What pattern encapsulates a request as a URL and parameters?  
+- Command  
+- Front Controller*  
+- Adapter  
+- Observer
+
+402. Which architectural pattern separates presentation and logic on different servers?  
+- MVC  
+- MVP  
+- MVVM  
+- MVC with separate tiers (Web MVC)*
+
+403. What is the main goal of the API Gateway in microservices?  
+- Direct database access  
+- Centralized logging  
+- Single entry point, routing and cross-cutting concerns*  
+- Client-side load balancing
+
+404. Which pattern is used to aggregate events from multiple sources?  
+- Observer  
+- Event Aggregator*  
+- Mediator  
+- Adapter
+
+405. Which pattern is useful for protecting a resource by checking access rights before forwarding calls?  
+- Proxy*  
+- Decorator  
+- Adapter  
+- Visitor
+
+406. What pattern helps implement distributed transactions and rollback across microservices?  
+- Circuit Breaker  
+- Saga*  
+- Bulkhead  
+- Retry
+
+407. Which pattern converts a tree of objects into a linear form for storage or transmission?  
+- Visitor  
+- Serialization (Memento)*  
+- Prototype  
+- Facade
+
+408. What pattern allows adding methods to existing classes without modifying them?  
+- Adapter  
+- Decorator*  
+- Observer  
+- Strategy
+
+409. Which pattern is best for modeling finite state machines?  
+- State*  
+- Strategy  
+- Interpreter  
+- Proxy
+
+410. What pattern externalizes an algorithm’s structure so subclasses can override parts?  
+- Template Method*  
+- Strategy  
+- Factory Method  
+- Visitor
+
+411. Which pattern is suited for components that vary independently?  
+- Bridge*  
+- Adapter  
+- Proxy  
+- Singleton
+
+412. What is the intent of the Prototype pattern?  
+- Prevent object creation  
+- Clone existing objects to avoid cost*  
+- Provide global access  
+- Decorate objects
+
+413. Which pattern encapsulates object creation to allow flexible configuration?  
+- Builder*  
+- Prototype  
+- Adapter  
+- Observer
+
+414. What pattern provides a simple interface to complex subsystems?  
+- Facade*  
+- Adapter  
+- Proxy  
+- Visitor
+
+415. Which pattern decouples sender and receiver by allowing multiple handlers?  
+- Observer  
+- Chain of Responsibility*  
+- Strategy  
+- Command
+
+416. What is the benefit of the Decorator pattern?  
+- Simplifies object  
+- Adds behavior dynamically*  
+- Ensures one instance  
+- Encapsulates request
+
+417. Which pattern is used to traverse complex structures without exposing representation?  
+- Iterator*  
+- Visitor  
+- Observer  
+- Memento
+
+418. What pattern stores snapshots of object state for undo?  
+- Memento*  
+- Prototype  
+- Observer  
+- Singleton
+
+419. Which pattern allows deferring object creation until needed?  
+- Lazy Initialization*  
+- Factory  
+- Singleton  
+- Builder
+
+420. What pattern wraps a set of dependencies to pass to clients?  
+- Facade  
+- Service Locator*  
+- Builder  
+- Interpreter
+
+421. Which pattern provides a method to retrieve an element from a complex structure?  
+- Iterator*  
+- Visitor  
+- Command  
+- Strategy
+
+422. What pattern handles object creation via subclass responsibility?  
+- Factory Method*  
+- Abstract Factory  
+- Builder  
+- Prototype
+
+423. Which pattern dynamically selects an algorithm at runtime?  
+- Strategy*  
+- Factory  
+- Observer  
+- Singleton
+
+424. What pattern simplifies interfacing with legacy code?  
+- Adapter*  
+- Decorator  
+- Proxy  
+- Chain of Responsibility
+
+425. Which pattern defers initialization of expensive objects?  
+- Lazy Initialization*  
+- Singleton  
+- Flyweight  
+- Builder
+
+426. What pattern provides a placeholder for another object to control access?  
+- Proxy*  
+- Adapter  
+- Decorator  
+- Visitor
+
+427. Which pattern is responsible for scheduling tasks in distributed systems?  
+- Scheduler  
+- Leader Election  
+- Job Queue*  
+- Circuit Breaker
+
+428. What pattern replicates an object within the same JVM?  
+- Prototype*  
+- Singleton  
+- Builder  
+- Factory
+
+429. Which pattern allows you to build a family of related objects?  
+- Factory Method  
+- Abstract Factory*  
+- Builder  
+- Prototype
+
+430. What pattern allows adding responsibilities to objects dynamically?  
+- Decorator*  
+- Adapter  
+- Proxy  
+- Strategy
+
+431. Which pattern ensures backward compatibility in evolving APIs?  
+- Adapter*  
+- Decorator  
+- Proxy  
+- Facade
+
+432. What pattern organizes objects into a parent-child hierarchy?  
+- Composite*  
+- Chain of Responsibility  
+- Strategy  
+- Decorator
+
+433. Which pattern is designed to distribute requests to one of several objects?  
+- Chain of Responsibility  
+- Strategy  
+- Façade  
+- Service Locator*
+
+434. What pattern is used to convert interface of a class into another interface clients expect?  
+- Adapter*  
+- Proxy  
+- Decorator  
+- Observer
+
+435. Which pattern supplies a default object when no real object is provided?  
+- Null Object*  
+- Prototype  
+- Builder  
+- Singleton
+
+436. What pattern is often used by frameworks to find implementations of interfaces?  
+- Service Locator*  
+- Dependency Injection  
+- Factory  
+- Builder
+
+437. Which pattern is used when implementations may vary by platform?  
+- Abstract Factory*  
+- Factory Method  
+- Builder  
+- Prototype
+
+438. What pattern centralizes error handling across classes?  
+- Chain of Responsibility*  
+- Observer  
+- Strategy  
+- Command
+
+439. Which pattern distributes tasks to multiple worker objects?  
+- Observer  
+- Producer-Consumer*  
+- Strategy  
+- Command
+
+440. What pattern allows clients to request objects without knowing creation logic?  
+- Factory*  
+- Prototype  
+- Singleton  
+- Builder
+
+441. Which pattern extends an object’s behavior before and after method calls?  
+- Interceptor*  
+- Decorator  
+- Adapter  
+- Proxy
+
+442. What pattern separates object's internal representation from external interface?  
+- Bridge*  
+- Adapter  
+- Facade  
+- Decorator
+
+443. Which pattern supports fallback logic when primary object fails?  
+- Circuit Breaker*  
+- Retry  
+- Bulkhead  
+- Saga
+
+444. What pattern isolates resources to prevent cascading failures?  
+- Bulkhead*  
+- Circuit Breaker  
+- Retry  
+- Singleton
+
+445. Which pattern controls concurrent thread access to shared resources?  
+- Lock  
+- Semaphore*  
+- CountDownLatch  
+- Barrier
+
+446. What pattern adapts synchronous call to asynchronous event?  
+- Async Adapter*  
+- Command  
+- Strategy  
+- Observer
+
+447. Which pattern composes objects into tree structures?  
+- Composite*  
+- Decorator  
+- Proxy  
+- Visitor
+
+448. What pattern prevents unnecessary object duplication in memory?  
+- Flyweight*  
+- Singleton  
+- Prototype  
+- Builder
+
+449. Which pattern maps domain events to handlers?  
+- Observer  
+- Event Dispatcher*  
+- Strategy  
+- Command
+
+450. What pattern defines a protocol for accessing a set of classes?  
+- Facade*  
+- Adapter  
+- Bridge  
+- Proxy
+
+451. Which pattern manages object graph serialization?  
+- Memento  
+- Prototype  
+- Visitor*  
+- Singleton
+
+452. What pattern handles load balancing among service instances?  
+- Dispatcher  
+- Load Balancer*  
+- Proxy  
+- Adapter
+
+453. Which pattern allows tenants to share the same application instance?  
+- Multi-tenant  
+- Singleton  
+- Pooling  
+- Tenant Isolation*
+
+454. What pattern supports rollback segments in transactions?  
+- Memento  
+- Saga*  
+- Command  
+- Observer
+
+455. Which pattern can prevent retry storms in network calls?  
+- Circuit Breaker*  
+- Retry  
+- Bulkhead  
+- Caching
+
+456. What pattern uses a chain of handlers to process input?  
+- Chain of Responsibility*  
+- Observer  
+- Strategy  
+- Command
+
+457. Which pattern decouples event production from consumption?  
+- Publish-Subscribe*  
+- Observer  
+- Chain of Responsibility  
+- Mediator
+
+458. What pattern implements a read-only view to underlying object?  
+- Proxy*  
+- Decorator  
+- Adapter  
+- Singleton
+
+459. Which pattern provides a global point of configuration across modules?  
+- Registry*  
+- Singleton  
+- Factory  
+- Builder
+
+460. What pattern provides interface for interacting with a complex system?  
+- Facade*  
+- Adapter  
+- Proxy  
+- Decorator
+
+461. Which pattern handles asynchronous callbacks in Java?  
+- Future*  
+- Promise  
+- Continuation  
+- Event Loop
+
+462. What pattern batches multiple operations into one call?  
+- Unit of Work*  
+- Command  
+- Strategy  
+- Decorator
+
+463. Which pattern is used for object caching at application level?  
+- Flyweight  
+- Cache*  
+- Prototype  
+- Singleton
+
+464. What pattern maps requests to appropriate handler?  
+- Front Controller*  
+- Adapter  
+- Observer  
+- Visitor
+
+465. Which pattern improves performance by using in-memory copies of data?  
+- Cache*  
+- Proxy  
+- Adapter  
+- Decorator
+
+466. What pattern allows dynamic addition of responsibilities?  
+- Decorator*  
+- Proxy  
+- Adapter  
+- Observer
+
+467. Which pattern centralizes creation of families of related objects?  
+- Abstract Factory*  
+- Factory Method  
+- Builder  
+- Prototype
+
+468. What pattern uses a registry of handlers to process messages?  
+- Mediator  
+- Front Controller  
+- Event Dispatcher*  
+- Chain of Responsibility
+
+469. Which pattern supports database connection pooling?  
+- Factory  
+- Singleton*  
+- Prototype  
+- Builder
+
+470. What pattern compresses request-response protocol details?  
+- Facade*  
+- Adapter  
+- Proxy  
+- Decorator
+
+471. Which IoC style uses container to manage object lifecycles?  
+- Dependency Injection*  
+- Service Locator  
+- Factory  
+- Builder
+
+472. What pattern simplifies stub generation for remote calls?  
+- Proxy*  
+- Adapter  
+- Visitor  
+- Strategy
+
+473. Which pattern handles cross-cutting concerns via bytecode weaving?  
+- Proxy  
+- Decorator  
+- Aspect-Oriented Programming (AOP)*  
+- Observer
+
+474. What pattern decouples advice from business logic?  
+- AOP*  
+- Decorator  
+- Proxy  
+- Observer
+
+475. Which AOP concept defines where to apply advice?  
+- Pointcut*  
+- Join point  
+- Advice  
+- Aspect
+
+476. What is an advice in AOP?  
+- Action taken at join point*  
+- Point in execution  
+- Module definition  
+- Interface definition
+
+477. Which AOP advice runs before a method execution?  
+- Before*  
+- After  
+- Around  
+- AfterReturning
+
+478. Which AOP advice runs around a method execution?  
+- Before  
+- After  
+- Around*  
+- AfterThrowing
+
+479. What pattern is used to implement RESTful clients in Spring?  
+- RestTemplate*  
+- WebClient  
+- MVC  
+- JMS
+
+480. Which Spring annotation marks a REST endpoint method?  
+- @GetMapping*  
+- @RequestMapping  
+- @Controller  
+- @Service
+
+481. What pattern supports live reload of classes in development?  
+- HotSwap*  
+- Proxy  
+- Decorator  
+- Factory
+
+482. Which pattern is used for dynamic SQL building in MyBatis?  
+- Builder*  
+- Factory  
+- Strategy  
+- Proxy
+
+483. What pattern is used by SLF4J to bind logging implementation?  
+- Bridge*  
+- Adapter  
+- Proxy  
+- Factory
+
+484. Which pattern provides a facade for multiple logging frameworks?  
+- SLF4J*  
+- Log4j  
+- JUL  
+- Logback
+
+485. What pattern helps prevent unauthorized access to methods?  
+- Security Proxy*  
+- Decorator  
+- Adapter  
+- Observer
+
+486. Which pattern implements circuit breaker in Spring?  
+- Spring Cloud Circuit Breaker*  
+- Hystrix  
+- Resilience4j  
+- Sentinel
+
+487. What pattern uses a bucket and token model for rate limiting?  
+- Token Bucket*  
+- Leaky Bucket  
+- Circuit Breaker  
+- Retry
+
+488. Which pattern is used for event-driven microservices?  
+- Event Sourcing*  
+- Command  
+- Singleton  
+- Observer
+
+489. What pattern stores state changes as events?  
+- Event Sourcing*  
+- CQRS  
+- Saga  
+- Circuit Breaker
+
+490. Which pattern separates read and write models?  
+- CQRS*  
+- Saga  
+- Proxy  
+- Observer
+
+491. What pattern helps roll back distributed transactions?  
+- Two-phase commit*  
+- Saga  
+- Circuit Breaker  
+- Retry
+
+492. Which pattern supports consistent Undo in workflows?  
+- Memento*  
+- Command  
+- Strategy  
+- Builder
+
+493. What pattern orchestrates microservice interactions?  
+- Orchestration*  
+- Choreography  
+- Proxy  
+- Decorator
+
+494. Which pattern uses event-based choreography between services?  
+- Choreography*  
+- Orchestration  
+- Command  
+- Observer
+
+495. What pattern helps manage feature toggles?  
+- Strategy  
+- Feature Toggle*  
+- Proxy  
+- Observer
+
+496. Which pattern monitors service health and routes accordingly?  
+- Service Mesh  
+- Sidecar  
+- Circuit Breaker*  
+- Proxy
+
+497. What pattern ensures idempotent retry of operations?  
+- Saga idempotency  
+- Retry with idempotency*  
+- Circuit Breaker  
+- Bulkhead
+
+498. Which pattern improves observability in microservices?  
+- Logging  
+- Distributed Tracing*  
+- Monitoring  
+- Proxy
+
+499. What pattern standardizes cross-cutting concern implementation?  
+- AOP*  
+- Singleton  
+- Builder  
+- Factory
+
+500. Which pattern encapsulates network communication details?  
+- Proxy*  
+- Adapter  
+- Observer  
+- Strategy
