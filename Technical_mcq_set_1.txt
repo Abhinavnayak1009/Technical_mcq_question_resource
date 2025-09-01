@@ -1,0 +1,614 @@
+
+1. Which directive is used to include a standard header file in C?
+- Option A #include "file"
+- Option B #include <file> *
+- Option C #library "file"
+- Option D include <file>
+
+2. What symbol is used for preprocessor directives in C?
+- Option A @
+- Option B # *
+- Option C $
+- Option D &
+
+3. What happens if the same header file is included multiple times without include guards?
+- Option A Compilation error *
+- Option B Runs fine
+- Option C Runtime error
+- Option D Ignored by compiler
+
+4. Which directive prevents multiple inclusions of header files?
+- Option A #define ONLY
+- Option B #ifndef - #define - #endif *
+- Option C #include_once
+- Option D #once
+
+5. The function `fopen()` is used to:
+- Option A Open a file *
+- Option B Close a file
+- Option C Read a file
+- Option D Write to file
+
+6. What mode opens file for reading in `fopen()`?
+- Option A "r" *
+- Option B "w"
+- Option C "a"
+- Option D "rw"
+
+7. Which function moves the file pointer to a specified location?
+- Option A fseek() *
+- Option B rewind()
+- Option C ftell()
+- Option D fopen()
+
+8. What does `fseek(fp, 0, SEEK_SET)` do?
+- Option A Moves file pointer to beginning of file *
+- Option B Moves to end of file
+- Option C Moves forward 0 bytes
+- Option D Moves to next byte
+
+9. Which function returns current file pointer position?
+- Option A fopen()
+- Option B ftell() *
+- Option C fseek()
+- Option D fclose()
+
+10. What happens if `fopen()` fails to open a file?
+- Option A Returns NULL pointer *
+- Option B Exits program
+- Option C Creates new file
+- Option D Throws exception
+
+11. Which header file contains declarations for file I/O functions?
+- Option A stdio.h *
+- Option B stdlib.h
+- Option C string.h
+- Option D conio.h
+
+12. Which directive defines a macro in C?
+- Option A #include
+- Option B #define *
+- Option C #if
+- Option D #ifdef
+
+13. How do you undefine a macro?
+- Option A #ifdef
+- Option B #undef *
+- Option C #delete
+- Option D #undefine
+
+14. What does the directive `#ifdef` check?
+- Option A If macro is defined *
+- Option B If macro is not defined
+- Option C If macro is equal to value
+- Option D If macro exists in file
+
+15. What is the default return type of a function in C if not specified?
+- Option A void
+- Option B int *
+- Option C char
+- Option D float
+
+16. Which of the following is the correct main function signature in C?
+- Option A int main()
+- Option B void main() (not standard)
+- Option C int main(void) *
+- Option D main()
+
+17. What is the result of including a header file that does not exist?
+- Option A Compilation error *
+- Option B Warning only
+- Option C Runs fine
+- Option D Runtime error
+
+18. Which file mode is used in `fopen()` for appending data?
+- Option A "a" *
+- Option B "r"
+- Option C "w"
+- Option D "rw"
+
+19. fseek() can move the file pointer:
+- Option A Only forward
+- Option B Both forward and backward *
+- Option C Only backward
+- Option D No movement allowed
+
+20. SEEK_END moves the file pointer to:
+- Option A End of file *
+- Option B Beginning
+- Option C Middle
+- Option D Current location
+
+21. What is the role of `#ifndef` in header files?
+- Option A Ensure code is included only once *
+- Option B Include file only if macro defined
+- Option C Defines variable
+- Option D Sets compiler flags
+
+22. Which is used to comment out multiple lines in C?
+- Option A /*
+- Option B //
+- Option C /*
+- Option D /* ... */ *
+
+23. Which function closes an open file?
+- Option A fclose() *
+- Option B close()
+- Option C endfile()
+- Option D stopfile()
+
+24. How are buffers flushed in C using `stdio`?
+- Option A fflush() *
+- Option B buffer_flush()
+- Option C flush()
+- Option D clear()
+
+25. To read characters from a file, which function can be used?
+- Option A fgetc() *
+- Option B fgets()
+- Option C fscanf()
+- Option D fputc()
+
+26. To write a character to a file, use?
+- Option A fputc() *
+- Option B fwrite()
+- Option C fprintf()
+- Option D fgetchar()
+
+27. Which macro expands to the current line number?
+- Option A __FILE__
+- Option B __DATE__
+- Option C __LINE__ *
+- Option D __TIME__
+
+28. Which macro expands to the current filename?
+- Option A __FILE__ *
+- Option B __LINE__
+- Option C __DATE__
+- Option D __TIME__
+
+29. What directive checks if a macro is NOT defined?
+- Option A #if
+- Option B #else
+- Option C #ifndef *
+- Option D #endif
+
+30. What happens if condition in `#if` is false?
+- Option A Code is skipped *
+- Option B Code runs
+- Option C Code compiles anyway
+- Option D Compiler error
+
+31. Which function reads a block of data from file?
+- Option A fread() *
+- Option B fscanf()
+- Option C fgets()
+- Option D fget()
+
+32. Which function writes block of data to file?
+- Option A fwrite() *
+- Option B fprintf()
+- Option C fputc()
+- Option D fputs()
+
+33. Which has higher precedence, macro or function call?
+- Option A Macro *
+- Option B Function
+- Option C Both same
+- Option D None
+
+34. What is the output of this code? #define PI 3.14 printf("%f", PI);
+
+
+
+- Option A 3.14 *
+- Option B %f
+- Option C PI
+- Option D Error
+
+35. To open a binary file for writing, use `fopen()` mode:
+- Option A "wb" *
+- Option B "rb"
+- Option C "ab"
+- Option D "r"
+
+36. Which directive replaces tokens before compilation?
+- Option A #include
+- Option B #define *
+- Option C #ifdef
+- Option D #ifndef
+
+37. Which is invalid preprocessor directive?
+- Option A #define
+- Option B #pytest *
+- Option C #ifdef
+- Option D #endif
+
+38. What is the max length of file name in C standard?
+- Option A 14
+- Option B 255 *
+- Option C 1024
+- Option D 512
+
+39. Which function repositions file pointer to beginning?
+- Option A rewind() *
+- Option B fseek(fp, 0, SEEK_SET)
+- Option C ftell()
+- Option D fclose()
+
+40. Which header file declares malloc()?
+- Option A stdio.h
+- Option B stdlib.h *
+- Option C math.h
+- Option D string.h
+
+41. What is purpose of #undef?
+- Option A Define macro
+- Option B Undefine macro *
+- Option C Include header
+- Option D Conditional compilation
+
+42. Can you define macros with arguments?
+- Option A No
+- Option B Yes *
+- Option C Only one argument
+- Option D Only numeric args
+
+43. What is expansion of this macro? #define SQUARE(x) ((x)*(x))
+
+
+- Option A Square of x *
+- Option B Error in code
+- Option C Linear value
+- Option D None
+
+44. What is output? #define MIN 10 int a = MIN * 2; printf("%d", a);
+
+- Option A 20 *
+- Option B 10
+- Option C 2
+- Option D Error
+
+45. What is benefit of include guards?
+- Option A Preventing multiple inclusions *
+- Option B Faster compile
+- Option C More memory
+- Option D Easier coding
+
+46. How undefine macro in header?
+- Option A #define NAME
+- Option B #undef NAME *
+- Option C #ifdef NAME
+- Option D #ifndef NAME
+
+47. What does #error directive do?
+- Option A Compilation error with message *
+- Option B Ignores code
+- Option C Includes file
+- Option D Comments code
+
+48. Function to read line from file?
+- Option A fgets() *
+- Option B fgetc()
+- Option C fscanf()
+- Option D fread()
+
+49. Function to write string to file?
+- Option A fputs() *
+- Option B fwrite()
+- Option C fprintf()
+- Option D putc()
+
+50. Block comment syntax in C?
+- Option A /* comment */ *
+- Option B // comment
+- Option C <!-- comment -->
+- Option D # comment
+
+51. What happens if header file included twice without guards?
+- Option A Compilation fails *
+- Option B Runs fine
+- Option C Runtime error
+- Option D Warning only
+
+52. Which of these is NOT valid macro definition?
+- Option A #define MAX 100
+- Option B #define SQUARE(x) ((x)(x))
+- Option C #define 123ABC 10 *
+- Option D #define PI 3.14
+
+53. What header file contains standard I/O functions?
+- Option A stdio.h *
+- Option B stdlib.h
+- Option C string.h
+- Option D conio.h
+
+54. fopen() returns what on failure?
+- Option A NULL pointer *
+- Option B Exception
+- Option C 0
+- Option D -1
+
+55. What happens if a macro is already defined and you define it again without undefining?
+- Option A Warning or error *
+- Option B Overwrites silently
+- Option C Nothing
+- Option D Runtime error
+
+56. What does #pragma directive do?
+- Option A Give special instructions to compiler *
+- Option B Define macro
+- Option C Include file
+- Option D None
+
+57. Which function writes formatted output to file?
+- Option A fprintf() *
+- Option B printf()
+- Option C sprintf()
+- Option D puts()
+
+58. What is the output of ftell() after fseek(fp, 0, SEEK_END)?
+- Option A 0
+- Option B File size in bytes *
+- Option C -1
+- Option D Undefined
+
+59. Which mode on fopen() truncates the file to zero length?
+- Option A "r"
+- Option B "w" *
+- Option C "a"
+- Option D "r+"
+
+60. What happens if we fscanf() a non-existent file?
+- Option A Returns EOF *
+- Option B Crashes program
+- Option C Reads zeros
+- Option D Throws exception
+
+61. Which directive changes file’scompilation depending on condition?
+- Option A #ifdef *
+- Option B #define
+- Option C #include
+- Option D #pragma
+
+62. What does #line directive do?
+- Option A Specifies line number for error messages *
+- Option B Includes file
+- Option C Defines macro
+- Option D None
+
+63. What's wrong here? #define ADD(x, y) x + y int res = ADD(3, 4) * 5;
+
+
+- Option A Calculation is wrong due to macro expansion, should use parentheses *
+- Option B Syntax error
+- Option C No problem
+- Option D Undefined behavior
+
+64. Which header defines malloc() and free()?
+- Option A stdlib.h *
+- Option B stdio.h
+- Option C memory.h
+- Option D string.h
+
+65. Which header defines memcpy()?
+- Option A stdio.h
+- Option B string.h *
+- Option C stdlib.h
+- Option D memory.h
+
+66. What is the output? #define MAX 10 #undef MAX #define MAX 20 printf("%d", MAX);
+
+- Option A 20 *
+- Option B 10
+- Option C Error
+- Option D 0
+
+67. Which is NOT a valid comment in C?
+- Option A // comment
+- Option B /* comment */
+- Option C <# comment #> *
+- Option D Nested /* /* comment */ */ (invalid in C89)
+
+68. Which function flushes output buffers?
+- Option A fflush() *
+- Option B flush()
+- Option C fclose()
+- Option D reset()
+
+69. Which header declares printf()?
+- Option A stdlib.h
+- Option B stdio.h *
+- Option C math.h
+- Option D string.h
+
+70. Which of these is a valid conditional compilation directive?
+- Option A #ifdef *
+- Option B #loop
+- Option C #repeat
+- Option D #conditional
+
+71. To stop multiple inclusions, which directive is used?
+- Option A #endif
+- Option B #ifndef *
+- Option C #define
+- Option D #include
+
+72. What value does main() return on successful execution?
+- Option A 0 *
+- Option B 1
+- Option C -1
+- Option D None
+
+73. How to write an infinite loop using macros?
+- Option A #define LOOP while(1) *
+- Option B #define LOOP for(;;)
+- Option C #define LOOP infinite()
+- Option D #define LOOP forever
+
+74. Which function reads a character from file?
+- Option A fgetc() *
+- Option B getchar()
+- Option C getc()
+- Option D fgets()
+
+75. Which standard header defines size_t?
+- Option A stddef.h *
+- Option B stdio.h
+- Option C stdlib.h
+- Option D string.h
+
+
+
+77. Difference between #include <file> and #include "file" is?
+- Option A <> searches system directories, "" searches local directory *
+- Option B <> searches local directory, "" searches system
+- Option C No difference
+- Option D One includes, other excludes
+
+78. Which function returns EOF on failure?
+- Option A fgetc()
+- Option B fscanf()
+- Option C getchar()
+- Option D All above *
+
+79. What is the default initial position of file pointer after fopen() in "r" mode?
+- Option A Beginning of file *
+- Option B End of file
+- Option C Current position
+- Option D Undefined
+
+80. Which of these is used for multiline macros?
+- Option A \ at end of line *
+- Option B ;
+- Option C //
+- Option D #
+
+81. What should be done to avoid macro side effects?
+- Option A Use parentheses in macro definitions *
+- Option B Use void functions
+- Option C Avoid macros
+- Option D Use global variables
+
+82. What happens if fread() reads less than requested?
+- Option A End of file or error *
+- Option B Always error
+- Option C Partial data discarded
+- Option D Undefined
+
+83. What would this do? #if n def MY_HEADER #define MY_HEADER #define MAX 100 #endif
+
+
+
+- Option A Prevent double inclusion *
+- Option B Define MAX multiple times
+- Option C Nothing
+- Option D Produce error
+
+84. Which function is used to get current file pointer in bytes from file start?
+- Option A ftell() *
+- Option B fseek()
+- Option C rewind()
+- Option D fclose()
+
+85. How to check if FILE* is NULL?
+- Option A if(file)
+- Option B if(file == NULL) *
+- Option C if(file != NULL)
+- Option D Never check
+
+86. What is the result of macro expansion?
+
+#define MAX(a,b) ((a)>(b)?(a):(b))
+int x = MAX(5,6);
+
+text
+
+- Option A 6 *
+- Option B 5
+- Option C Error
+- Option D 1
+
+87. Which keyword declares a symbolic constant?
+- Option A #define *
+- Option B const
+- Option C static
+- Option D enum
+
+88. What is the maximum number of files that can be opened simultaneously?
+- Option A Limited by OS *
+- Option B Always 20
+- Option C Always 10
+- Option D Unlimited
+
+89. Which directive is used to check if macro is defined?
+- Option A #ifdef *
+- Option B #ifndef
+- Option C #if
+- Option D #define
+
+90. Which function reads formatted data from file?
+- Option A fscanf() *
+- Option B scanf()
+- Option C fscanf_s()
+- Option D fgets()
+
+91. Which header file is required for assert()?
+- Option A cassert
+- Option B assert.h *
+- Option C stdlib.h
+- Option D stdio.h
+
+92. How to check file exists before opening?
+- Option A fopen() and check NULL *
+- Option B file_exists()
+- Option C exists()
+- Option D Access system call
+
+93. Which is valid pointer declaration?
+- Option A int *ptr; *
+- Option B int ptr*;
+- Option C int &ptr;
+- Option D ptr int*;
+
+94. What value does a pointer hold when uninitialized?
+- Option A NULL or garbage *
+- Option B Zero
+- Option C Defined value
+- Option D Always valid address
+
+95. Which function deallocates memory allocated via malloc()?
+- Option A delete()
+- Option B free() *
+- Option C dispose()
+- Option D release()
+
+96. How to concatenate strings in C?
+- Option A strcat() *
+- Option B stradd()
+- Option C strcopy()
+- Option D strcpy()
+
+97. Which function compares two strings?
+- Option A strcmp() *
+- Option B strcomp()
+- Option C strcmpi()
+- Option D strint()
+
+98. What is the size of int in C?
+- Option A 2 bytes
+- Option B 4 bytes (depends on architecture) *
+- Option C 8 bytes
+- Option D 1 byte
+
+99. Which header defines memset()?
+- Option A string.h *
+- Option B stdio.h
+- Option C stdlib.h
+- Option D math.h
+
+100. What is the default return value of main() if none specified?
+- Option A 0 *
+- Option B 1
+- Option C -1
+- Option D No default
