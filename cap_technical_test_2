@@ -1,0 +1,599 @@
+101. Which Java collection allows duplicate elements?  
+- HashSet  
+- TreeSet  
+- ArrayList*  
+- LinkedHashSet
+
+102. What does JVM stand for?  
+- Java Verified Machine  
+- Java Virtual Machine*  
+- Java Visual Machine  
+- Java Variable Machine
+
+103. Which HTTP method is idempotent?  
+- POST  
+- GET*  
+- PATCH  
+- CONNECT
+
+104. What is the purpose of the `final` keyword on a variable?  
+- Makes it transient  
+- Prevents reassignment*  
+- Enables serialization  
+- Declares it static
+
+105. Which SQL clause groups rows sharing a property?  
+- WHERE  
+- GROUP BY*  
+- ORDER BY  
+- HAVING
+
+106. What is the output of `System.out.println(3 & 5);` in Java?  
+- 1*  
+- 3  
+- 5  
+- 7
+
+107. Which design pattern provides a way to access elements of a collection sequentially?  
+- Factory  
+- Iterator*  
+- Builder  
+- Singleton
+
+108. In Java, what exception is thrown for invalid array index access?  
+- NullPointerException  
+- ArrayIndexOutOfBoundsException*  
+- IllegalArgumentException  
+- ClassCastException
+
+109. What is the capital of functional programming in Java?  
+- java.util.Stream*  
+- java.lang.Thread  
+- java.io.File  
+- java.sql.Connection
+
+110. Which API is used for object-relational mapping in Java?  
+- JDBC  
+- Hibernate*  
+- JAXB  
+- JAX-RS
+
+111. What is the default fetch type of @ManyToOne in JPA?  
+- LAZY  
+- EAGER*  
+- DEFAULT  
+- MANUAL
+
+112. Which of the following is a build automation tool?  
+- Git  
+- Maven*  
+- Docker  
+- Kubernetes
+
+113. What is the purpose of the `volatile` keyword in Java?  
+- Ensures visibility across threads*  
+- Prevents reassignment  
+- Enables reflection  
+- Forces serialization
+
+114. Which scheduling algorithm gives each process an equal time slice?  
+- FCFS  
+- Round Robin*  
+- Priority  
+- SJF
+
+115. What is the minimum spanning tree algorithm by Kruskal?  
+- Greedy*  
+- Divide and conquer  
+- Dynamic programming  
+- Backtracking
+
+116. In REST, what does PUT typically do?  
+- Create resource  
+- Replace or create resource*  
+- Delete resource  
+- Partially update resource
+
+117. What is the output of `10 >>> 2` in Java?  
+- 2  
+- 40  
+- 2*  
+- 3
+
+118. Which HTTP status code indicates a server error?  
+- 200  
+- 301  
+- 404  
+- 500*
+
+119. What is JDBC used for?  
+- File I/O  
+- Database connectivity*  
+- GUI creation  
+- Network communication
+
+120. Which operator is used for bitwise XOR in Java?  
+- &  
+- |  
+- ^*  
+- ~
+
+121. What is the time complexity of accessing an element in a HashMap?  
+- O(n)  
+- O(log n)  
+- O(1)*  
+- O(n²)
+
+122. Which collection is synchronized by default?  
+- HashMap  
+- ArrayList  
+- Vector*  
+- LinkedList
+
+123. What does SQL’s `HAVING` clause filter?  
+- Rows before grouping  
+- Groups after grouping*  
+- Individual columns  
+- None
+
+124. Which algorithm is used in Dijkstra’s shortest path?  
+- Dynamic programming  
+- Greedy*  
+- Divide and conquer  
+- Backtracking
+
+125. In Java, which exception must be caught or declared?  
+- RuntimeException  
+- IOException*  
+- NullPointerException  
+- Error
+
+126. Which sorting algorithm best suits nearly sorted arrays?  
+- Quick Sort  
+- Insertion Sort*  
+- Selection Sort  
+- Merge Sort
+
+127. What does IoC stand for in Spring?  
+- Inversion of Control*  
+- Instance of Component  
+- Input-Output Controller  
+- Integration of Components
+
+128. Which annotation denotes a Spring component?  
+- @Service  
+- @Repository  
+- @Component*  
+- @Controller
+
+129. What command compiles Java source code?  
+- javac*  
+- java  
+- javadoc  
+- jar
+
+130. Which JDK tool generates Javadoc?  
+- javac  
+- java  
+- javadoc*  
+- jar
+
+131. Which of these is NOT a valid Java modifier?  
+- public  
+- private  
+- protected  
+- sealed*  
+
+132. What is the main principle of SOLID’s “O”?  
+- Open for modification  
+- Open for extension, closed for modification*  
+- Only use inheritance  
+- Overload methods
+
+133. Which framework uses dependency injection?  
+- Spring*  
+- Struts  
+- GWT  
+- Swing
+
+134. Which method in Object class returns class name?  
+- toString()  
+- getClass().getName()*  
+- className()  
+- getName()
+
+135. Which annotation in JUnit denotes a test method?  
+- @Test*  
+- @Run  
+- @Case  
+- @JUnit
+
+136. What is the default retention policy of Java annotations?  
+- SOURCE  
+- CLASS*  
+- RUNTIME  
+- MODULE
+
+137. Which design pattern decouples sender and receiver of requests?  
+- Observer*  
+- Factory  
+- Builder  
+- Singleton
+
+138. What is the primary key characteristic of a Java record class?  
+- Mutable fields  
+- Immutable data carrier*  
+- Extensible via inheritance  
+- No methods allowed
+
+139. Which in-memory data grid integrates with Java?  
+- Redis  
+- Hazelcast*  
+- MongoDB  
+- Cassandra
+
+140. What does CDI stand for in Java EE?  
+- Contexts and Dependency Injection*  
+- Component-Driven Interface  
+- Core Data Integration  
+- Controller Data Interaction
+
+141. Which of these is a container-managed transaction in Java EE?  
+- Bean-managed  
+- Container-managed*  
+- Manual-managed  
+- Client-managed
+
+142. What is the JPA annotation for primary key?  
+- @Column  
+- @Id*  
+- @Key  
+- @PrimaryKey
+
+143. Which Java EE component handles HTTP requests?  
+- Servlet*  
+- EJB  
+- JSP  
+- CDI
+
+144. What is the file extension for Java archive?  
+- .jar*  
+- .war  
+- .ear  
+- .zip
+
+145. Which annotation marks a Spring REST controller?  
+- @Controller  
+- @RestController*  
+- @Service  
+- @Component
+
+146. Which architecture style uses stateless services?  
+- SOAP  
+- REST*  
+- RPC  
+- FTP
+
+147. What is the default scope of a Spring bean?  
+- prototype  
+- singleton*  
+- request  
+- session
+
+148. Which Java library handles JSON binding?  
+- Jackson*  
+- Gson  
+- FastJSON  
+- JSON-P
+
+149. What is the primary goal of microservices?  
+- Monolithic design  
+- Independent deployable services*  
+- Single codebase  
+- Centralized database
+
+150. Which of the following is a concurrency utility in Java?  
+- CountDownLatch*  
+- ArrayList  
+- HashMap  
+- LinkedList
+
+151. What is the default charset in Java?  
+- UTF-8*  
+- ISO-8859-1  
+- ASCII  
+- UTF-16
+
+152. Which interface represents a function with no arguments and a return?  
+- Supplier*  
+- Consumer  
+- Function  
+- Predicate
+
+153. Which class in Java 8 represents a container that may hold a value?  
+- Optional*  
+- Maybe  
+- Container  
+- Wrapper
+
+154. What is the purpose of the `flatMap` method in streams?  
+- Transform value to stream and flatten*  
+- Map values directly  
+- Filter values  
+- Reduce values
+
+155. Which terminal operation collects stream elements into a list?  
+- collect(Collectors.toList())*  
+- reduce()  
+- forEach()  
+- map()
+
+156. Which concurrency mechanism uses permits?  
+- Semaphore*  
+- Lock  
+- CountDownLatch  
+- Phaser
+
+157. Which method on CompletableFuture adds callback on completion?  
+- thenApply()  
+- whenComplete()*  
+- handle()  
+- thenCombine()
+
+158. What is the function of ForkJoinPool?  
+- Thread pool for fork/join tasks*  
+- Single thread pool  
+- GUI thread pool  
+- Database connection pool
+
+159. Which data format does Java Properties class load?  
+- XML*  
+- JSON  
+- CSV  
+- YAML
+
+160. Which class is used for date-time in Java 8?  
+- Date  
+- Calendar  
+- LocalDateTime*  
+- Timestamp
+
+161. What is the result of `Stream.of(1,2,3).reduce(0, Integer::sum);`?  
+- 0  
+- 6*  
+- 123  
+- Null
+
+162. Which of the following is true for StringBuilder?  
+- Immutable  
+- Mutable*  
+- Thread-safe  
+- Final
+
+163. What is the effect of calling `join()` on a thread?  
+- Start thread  
+- Wait for thread to finish*  
+- Interrupt thread  
+- Pause thread
+
+164. Which class implements LRU cache in Java standard library?  
+- LinkedHashMap*  
+- HashMap  
+- TreeMap  
+- ArrayList
+
+165. What is the default load factor of HashMap?  
+- 0.5  
+- 0.75*  
+- 0.25  
+- 1.0
+
+166. Which argument does `Arrays.sort()` accept for parallel sorting?  
+- List  
+- int[]  
+- long[]  
+- int[]*  
+
+167. What is the use of `ThreadLocal` class?  
+- Thread-specific storage*  
+- Global storage  
+- Static storage  
+- Local storage
+
+168. Which mechanism prevents simultaneous updates to shared data?  
+- Semaphore*  
+- CountDownLatch  
+- Executor  
+- Stream
+
+169. Which annotation can rollback transaction on specific exception?  
+- @Transactional(rollbackFor=Exception.class)*  
+- @Rollback  
+- @Transaction  
+- @Commit
+
+170. What is the Java keyword for implementing multiple interfaces?  
+- extend  
+- implement  
+- implements*  
+- inherits
+
+171. Which JDK feature allows hot code replacement?  
+- Javadoc  
+- JShell  
+- JVM TI*  
+- jconsole
+
+172. What is the default concurrency level of ConcurrentHashMap?  
+- 16*  
+- 8  
+- 32  
+- 4
+
+173. Which of these is a reactive library for Java?  
+- Reactor*  
+- RxJS  
+- Angular  
+- React
+
+174. Which Java specification defines RESTful web services?  
+- JAX-RS*  
+- JAX-WS  
+- JAXP  
+- JMS
+
+175. What does CDI stand for?  
+- Component-Driven Integration  
+- Contexts and Dependency Injection*  
+- Code-Driven Inversion  
+- Context Definition Interface
+
+176. Which of these is an authentication protocol?  
+- OAuth*  
+- HTML  
+- CSS  
+- FTP
+
+177. Which Java component handles JMS?  
+- JMSProvider*  
+- MessageListener  
+- MessageProducer  
+- JMSContext
+
+178. What is the recommended way to close JDBC resources?  
+- Manually close in finally block*  
+- Rely on GC  
+- Not close at all  
+- Use System.exit()
+
+179. Which JDBC URL prefix is used for MySQL?  
+- jdbc:mysql:*  
+- jdbc:postgresql:  
+- jdbc:oracle:  
+- jdbc:sqlserver:
+
+180. What is the purpose of the `volatile` keyword?  
+- Ensure atomicity  
+- Ensure visibility across threads*  
+- Ensure immutability  
+- Ensure serialization
+
+181. Which of these defines a functional interface?  
+- Interface with one abstract method*  
+- Interface with no methods  
+- Interface with multiple default methods  
+- Interface with static methods
+
+182. Which annotation marks a Spring bean field for DI?  
+- @Autowired*  
+- @Inject  
+- @Resource  
+- @Component
+
+183. What is the default transaction propagation in Spring?  
+- REQUIRED*  
+- REQUIRES_NEW  
+- SUPPORTS  
+- MANDATORY
+
+184. What does `@Scope("prototype")` mean in Spring?  
+- Single instance for container  
+- New instance every injection*  
+- Thread-local instance  
+- Request-scoped instance
+
+185. Which of these is NOT a valid HTTP method?  
+- GET  
+- POST  
+- FETCH*  
+- DELETE
+
+186. What is true about Java’s switch on String?  
+- Added in Java 7*  
+- Added in Java 6  
+- Not supported  
+- Deprecated in Java 8
+
+187. Which operator checks reference equality in Java?  
+- equals()  
+- ==*  
+- instanceof  
+- compareTo()
+
+188. What is the purpose of `transient` keyword?  
+- Prevent serialization of field*  
+- Prevent cloning  
+- Prevent modification  
+- Prevent inheritance
+
+189. Which command starts a new Spring Boot application?  
+- mvn spring:run  
+- mvn spring-boot:run*  
+- mvn spring:start  
+- mvn spring:launch
+
+190. What is true about `@EventListener` in Spring?  
+- Annotates methods for event handling*  
+- Starts new event thread  
+- Stops application  
+- Adds new event type
+
+191. Which of the following is NOT an OOP principle?  
+- Abstraction  
+- Encapsulation  
+- Polymorphism  
+- Compilation*
+
+192. What is the default character encoding in Java?  
+- UTF-8*  
+- ASCII  
+- ISO-8859-1  
+- UTF-16
+
+193. Which of these is used for remote method invocation?  
+- RMI*  
+- JDBC  
+- JAX-RS  
+- JMS
+
+194. What is the use of `String.intern()`?  
+- Store string in constant pool*  
+- Convert to lowercase  
+- Trim whitespace  
+- Reverse string
+
+195. Which Java class is immutable?  
+- String*  
+- StringBuilder  
+- StringBuffer  
+- StringWriter
+
+196. What is true about constructors in inheritance?  
+- Not inherited*  
+- Overridden  
+- Overloaded  
+- Hidden
+
+197. Which design pattern uses a “Builder” to create complex objects?  
+- Builder*  
+- Prototype  
+- Factory  
+- Observer
+
+198. Which JPA annotation marks a one-to-many relationship?  
+- @OneToOne  
+- @OneToMany*  
+- @ManyToOne  
+- @ManyToMany
+
+199. What is the default commit behavior in JDBC auto-commit?  
+- true*  
+- false  
+- null  
+- manual
+
+200. Which class is used to read bytes from a file?  
+- FileReader  
+- FileInputStream*  
+- BufferedReader  
+- FileWriter
