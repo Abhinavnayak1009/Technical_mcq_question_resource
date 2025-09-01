@@ -1,0 +1,599 @@
+201. Which design pattern is used to encapsulate request as an object?  
+- Observer  
+- Command*  
+- Factory  
+- Singleton
+
+202. What is the purpose of the Java Reflection API?  
+- Compile code  
+- Inspect and modify classes at runtime*  
+- Manage threads  
+- Handle garbage collection
+
+203. Which of the following is NOT a feature of Java 8 Streams?  
+- Lazy evaluation  
+- Declarative style  
+- In-place modification*  
+- Parallel processing
+
+204. What does the `flatMap` method do in Java Streams?  
+- Flattens nested streams*  
+- Filters elements  
+- Maps elements to new type  
+- Collects results
+
+205. In Java, which class represents an immutable sequence of characters?  
+- String*  
+- StringBuffer  
+- StringBuilder  
+- CharSequence
+
+206. Which data structure is used by LinkedHashMap to maintain insertion order?  
+- Array  
+- Linked list*  
+- Heap  
+- Stack
+
+207. What is the primary advantage of NIO’s non-blocking I/O?  
+- Simplicity  
+- Lower memory usage  
+- Ability to handle many connections with few threads*  
+- Guaranteed ordering
+
+208. Which Java feature allows you to define methods directly in interfaces?  
+- Abstract methods  
+- Default methods*  
+- Static methods  
+- Private methods
+
+209. What is the Java keyword to define a checked exception?  
+- exception  
+- throws*  
+- throw*  
+- catch
+
+210. When does a `finally` block execute?  
+- Only if an exception occurs  
+- Only if no exception occurs  
+- Regardless of exception status*  
+- Only during method exit  
+
+211. What does JDBC stand for?  
+- Java Database Connectivity*  
+- Java Data Bound Connection  
+- Java Direct Connection  
+- Java Desktop Connectivity
+
+212. Which design principle states “Prefer composition over inheritance”?  
+- Single Responsibility Principle  
+- Dependency Inversion Principle  
+- Liskov Substitution Principle  
+- Composition over inheritance*
+
+213. What is the result of `3 + 4 + "5"` in Java?  
+- "75"  
+- "345"  
+- "7" + "5" = "75"*  
+- Compilation error
+
+214. Which operator checks if an object is an instance of a class?  
+- instanceof*  
+- ins  
+- typeof  
+- is
+
+215. What is the advantage of using PreparedStatement over Statement in JDBC?  
+- Simpler syntax  
+- Prevents SQL injection*  
+- Supports only SELECT  
+- Faster compilation
+
+216. Which of these is NOT a type of JDBC driver?  
+- Type 1  
+- Type 2  
+- Type 3  
+- Type 5*
+
+217. What does the keyword `transient` indicate?  
+- Variable is not serialized*  
+- Variable is thread-safe  
+- Variable is final  
+- Variable is volatile
+
+218. In Java, what does `CloneNotSupportedException` indicate?  
+- Clone method failed  
+- Class does not implement Cloneable*  
+- Clone created deep copy  
+- Clone created shallow copy
+
+219. Which class in Java provides synchronized dynamic array?  
+- ArrayList  
+- Vector*  
+- LinkedList  
+- Stack
+
+220. What is the effect of calling `Collections.synchronizedList()`?  
+- Returns thread-safe list wrapper*  
+- Converts list to array  
+- Makes list immutable  
+- Clears list
+
+221. Which annotation marks a test to be ignored in JUnit?  
+- @Ignore*  
+- @Skip  
+- @Disabled  
+- @Exclude
+
+222. What is the default visibility of a class member with no modifier?  
+- public  
+- private  
+- protected  
+- package-private*
+
+223. Which Java package contains Collection interfaces?  
+- java.io  
+- java.util*  
+- java.lang  
+- java.net
+
+224. What does the `Optional` class represent?  
+- A nullable value  
+- A value that may be present or absent*  
+- A final variable  
+- A list of values
+
+225. Which functional interface represents a function that accepts one argument and produces a result?  
+- Consumer  
+- Supplier  
+- Function*  
+- Predicate
+
+226. What is the purpose of `Comparator` interface?  
+- Define natural ordering  
+- Define custom ordering*  
+- Compare primitive types only  
+- Merge two sorted lists
+
+227. Which class is thread-safe for date and time operations in Java 8?  
+- java.util.Date  
+- java.util.Calendar  
+- java.time.LocalDate*  
+- java.sql.Date
+
+228. What method in `Runnable` must be implemented?  
+- run()*  
+- start()  
+- execute()  
+- call()
+
+229. Which of the following is NOT a Java EE component?  
+- EJB  
+- Servlet  
+- JSP  
+- PyServlet*
+
+230. What is the use of `@PostConstruct` annotation?  
+- Cleanup after destroy  
+- Method called after bean construction*  
+- Define primary bean  
+- Inject dependency
+
+231. Which of these is a standard Java logging API?  
+- Log4j  
+- SLF4J  
+- java.util.logging*  
+- Logback
+
+232. What is the output of `Math.round(2.5f)`?  
+- 2  
+- 3*  
+- 2.5  
+- 0
+
+233. Which HTTP status code indicates “Created”?  
+- 200  
+- 201*  
+- 202  
+- 404
+
+234. What is the maximum size of a Java `byte`?  
+- 127*  
+- 255  
+- 256  
+- 128
+
+235. Which operator in Java concatenates strings?  
+- +*  
+- &  
+- .  
+- %
+
+236. What does GC stand for in Java?  
+- Graphical Computation  
+- Garbage Collection*  
+- General Compiler  
+- Global Classloader
+
+237. Which loop guarantees at least one execution?  
+- for  
+- while  
+- do-while*  
+- foreach
+
+238. What is the scope of a variable defined inside a method?  
+- Class  
+- Object  
+- Method*  
+- Package
+
+239. Which exception is thrown when a thread is interrupted during sleep?  
+- InterruptedIOException  
+- InterruptedException*  
+- SleepInterruptException  
+- ThreadInterruptedException
+
+240. What does the `synchronized` keyword do for methods?  
+- Makes method final  
+- Ensures one thread at a time*  
+- Prevents inheritance  
+- Optimizes performance
+
+241. Which class provides methods to manipulate dates in Java 8?  
+- java.util.Date  
+- java.util.Calendar  
+- java.time.LocalDate*  
+- java.sql.Date
+
+242. What is the size of a `char` in Java?  
+- 8 bits  
+- 16 bits*  
+- 32 bits  
+- JVM dependent
+
+243. What is the result of `Integer.parseInt("ABC", 16);`?  
+- 2748*  
+- 1234  
+- 43981  
+- NumberFormatException
+
+244. Which interface defines the contract for lambda expressions?  
+- Runnable  
+- Callable  
+- FunctionalInterface*  
+- Serializable
+
+245. What is the purpose of `@Retention(RetentionPolicy.RUNTIME)`?  
+- Annotation discarded at compile time  
+- Annotation available at runtime via reflection*  
+- Annotation applied to classes only  
+- Annotation applied to methods only
+
+246. Which Java collection uses a red-black tree for storage?  
+- HashMap  
+- TreeMap*  
+- LinkedHashMap  
+- ConcurrentHashMap
+
+247. What is the effect of `Collections.unmodifiableList()`?  
+- Returns read-only view*  
+- Clears list  
+- Converts to array  
+- Makes list synchronized
+
+248. Which method in `String` splits a string by regex?  
+- separate()  
+- split()*  
+- divide()  
+- tokenize()
+
+249. What does `System.nanoTime()` return?  
+- Current time in nanoseconds since epoch  
+- High-resolution time source in nanoseconds*  
+- Number of nanoseconds since JVM start  
+- Resolution of system clock
+
+250. Which exception is thrown for divide by zero?  
+- ArithmeticException*  
+- NumberFormatException  
+- RuntimeException  
+- DivisionByZeroException
+
+251. What is the difference between `==` and `equals()` for strings?  
+- Both check reference equality  
+- `==` checks reference, `equals()` checks content*  
+- Both check content equality  
+- `==` checks content, `equals()` checks reference
+
+252. Which method converts an array to a list?  
+- Arrays.toList()  
+- Arrays.asList()*  
+- List.of()  
+- Collections.toList()
+
+253. What is tail recursion?  
+- Recursive call as last action*  
+- Recursive call first action  
+- Multiple recursive calls  
+- No recursive calls
+
+254. What does `@FunctionalInterface` enforce?  
+- Only one abstract method*  
+- No default methods  
+- No static methods  
+- Must extend Runnable
+
+255. Which class is used for high-precision decimal calculations?  
+- BigInteger  
+- BigDecimal*  
+- Double  
+- Float
+
+256. What is the default behavior of `@Transactional` on rollback?  
+- Rollback on RuntimeException*  
+- Rollback on all exceptions  
+- No rollback  
+- Rollback on checked exceptions only
+
+257. Which operator checks if two references point to same object?  
+- equals()  
+- ==*  
+- ===  
+- eq
+
+258. What is a sealed class in Java 17?  
+- Class that limits which classes can extend it*  
+- Class that cannot be created  
+- Class that cannot be inherited  
+- Class that is final
+
+259. Which keyword allows restricting subclassing to specific classes?  
+- sealed*  
+- final  
+- abstract  
+- restricted
+
+260. What is the use of `value()` method in annotation interface?  
+- Define default value  
+- Single-value annotation attribute*  
+- Process annotation  
+- Validate annotation
+
+261. Which Java feature allows pattern matching with `instanceof`?  
+- Java 14*  
+- Java 8  
+- Java 16  
+- Java 11
+
+262. What is the record feature introduced in Java 16?  
+- Immutable data carriers*  
+- New collection type  
+- Thread API  
+- Lambda enhancement
+
+263. How are switch expressions enhanced in Java 14?  
+- Allow arrow labels*  
+- Remove default case  
+- Accept boolean  
+- Always return void
+
+264. What is the JEP that introduced text blocks?  
+- JEP 355*  
+- JEP 330  
+- JEP 315  
+- JEP 400
+
+265. Which method on `Optional` provides a fallback value?  
+- orElse()*  
+- orElseGet()  
+- orElseThrow()  
+- onEmpty()
+
+266. What does `Map.computeIfAbsent()` do?  
+- Computes and inserts value if key absent*  
+- Computes value if key present  
+- Removes absent keys  
+- Clears map
+
+267. Which collection class is optimal for concurrent reads?  
+- ArrayList  
+- CopyOnWriteArrayList*  
+- LinkedList  
+- Vector
+
+268. What is the purpose of `StampedLock`?  
+- Provide optimistic reads*  
+- Force exclusive lock  
+- Simplify synchronization  
+- Replace ReentrantLock
+
+269. Which class represents an atomic integer?  
+- AtomicInteger*  
+- IntegerAtomic  
+- AtomicInt  
+- ConcurrentInteger
+
+270. Which of these is a non-blocking queue implementation?  
+- ArrayBlockingQueue  
+- LinkedBlockingQueue  
+- ConcurrentLinkedQueue*  
+- PriorityBlockingQueue
+
+271. What is the behavior of `CompletableFuture.supplyAsync()`?  
+- Executes supplier asynchronously*  
+- Executes supplier synchronously  
+- Blocks thread  
+- Returns null
+
+272. Which method in `LocalDate` parses a date string?  
+- parse()*  
+- of()  
+- format()  
+- valueOf()
+
+273. What does `Duration.between()` compute?  
+- Difference between two dates  
+- Duration between two instants*  
+- Duration of one instant  
+- Default timezone offset
+
+274. What is the main advantage of `HttpClient` introduced in Java 11?  
+- Synchronous only  
+- Asynchronous by default*  
+- GUI integration  
+- Deprecated in Java 12
+
+275. Which interface represents a read-only list?  
+- List*  
+- ReadOnlyList  
+- ImmutableList  
+- UnmodifiableList*
+
+276. What does `Collectors.joining()` do?  
+- Concatenates strings*  
+- Converts to list  
+- Maps elements  
+- Filters elements
+
+277. Which annotation marks a method as scheduled task in Spring?  
+- @Scheduled*  
+- @Task  
+- @Cron  
+- @Timer
+
+278. Which class provides HTTP client support in Java 11?  
+- HttpClient*  
+- HttpURLConnection  
+- URLConnection  
+- WebClient
+
+279. What is the default behavior of `List.sort()` on null elements?  
+- NullPointerException*  
+- Moves null to end  
+- Ignores null  
+- Sorts normally
+
+280. Which method in `Files` reads all lines from a file as a stream?  
+- readAllLines()  
+- lines()*  
+- readLines()  
+- streamLines()
+
+281. What is the use of `Paths.get()`?  
+- Create Path object*  
+- Delete file  
+- Write file  
+- List directory
+
+282. What does `Files.walk()` do?  
+- Traverse directory tree recursively*  
+- List only files  
+- List only directories  
+- Delete files
+
+283. Which class provides NIO buffer for bytes?  
+- IntBuffer  
+- ByteBuffer*  
+- CharBuffer  
+- DoubleBuffer
+
+284. What is zero-copy transfer in NIO?  
+- Copy data via heap  
+- Transfer data directly from disk to network*  
+- Copy data via user buffer  
+- Copy data via byte[] only
+
+285. Which selection strategy does ForkJoinPool use?  
+- FIFO  
+- LIFO*  
+- Random  
+- Priority
+
+286. What is the default exception handler for threads in Java?  
+- ThreadDeath  
+- UncaughtExceptionHandler*  
+- ExceptionHandler  
+- DefaultExceptionHandler
+
+287. Which class is used for periodic scheduling of tasks?  
+- ScheduledExecutorService*  
+- ExecutorService  
+- TimerTask  
+- ThreadPoolExecutor
+
+288. What is the purpose of `LockSupport` class?  
+- Provide basic thread blocking primitives*  
+- Manage thread pools  
+- Execute tasks  
+- Monitor threads
+
+289. Which annotation marks a method as asynchronous in Spring?  
+- @Async*  
+- @Thread  
+- @Background  
+- @Task
+
+290. What is the JVM’s default garbage collector in Java 11?  
+- Serial GC  
+- Parallel GC*  
+- CMS  
+- G1 GC
+
+291. Which GC pauses application threads during mark and sweep?  
+- Serial GC*  
+- G1 GC  
+- ZGC  
+- Shenandoah
+
+292. What is Metaspace in Java?  
+- Replacement for PermGen*  
+- Replacement for Heap  
+- Replacement for Stack  
+- Replacement for Code cache
+
+293. Which class in JDK provides monitoring of thread metrics?  
+- ThreadMXBean*  
+- MemoryMXBean  
+- RuntimeMXBean  
+- ClassLoadingMXBean
+
+294. Which memory pool stores class metadata after PermGen removal?  
+- Eden  
+- Survivor  
+- Metaspace*  
+- Old Gen
+
+295. Which tool generates heap dumps?  
+- jstat  
+- jmap*  
+- jstack  
+- jhat
+
+296. What is the primary use of jstack?  
+- Generate thread dump*  
+- Generate heap dump  
+- Monitor CPU  
+- Monitor I/O
+
+297. Which tool in JDK provides chart-based profiling?  
+- jconsole  
+- jvisualvm*  
+- jstack  
+- jmap
+
+298. Which flag enables flight recorder on JVM start?  
+- -XX:+FlightRecorder  
+- -XX:StartFlightRecording*  
+- -XX:+EnableJFR  
+- -XX:+UseFlightRecorder
+
+299. Which Java feature supports modularization?  
+- Jigsaw*  
+- Project Loom  
+- Project Valhalla  
+- Nashorn
+
+300. What is the file extension for a Java module descriptor?  
+- .jmod  
+- module-info.java*  
+- .mod  
+- module.java
